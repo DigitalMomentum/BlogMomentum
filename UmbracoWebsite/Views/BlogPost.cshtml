@@ -1,0 +1,87 @@
+﻿@using BlogMomentum.Models;
+@inherits UmbracoViewPage<BlogPost>
+@{
+	Layout = "BlogPage.cshtml";
+
+}
+
+@section HeaderTags{
+	@{
+		Html.RenderPartial("Blog/ShareMetaData", Model);
+	}
+}
+
+<main>
+	<article>
+		<header>
+			<h1 itemprop="name">@Model.Title</h1>
+			<h4>
+				<time datetime="@(Model.EntryDate.ToString("yyyy-MM-dd"))" pubdate>@(Model.EntryDate.ToString("dddd, MMMM dd, yyyy"))</time>
+				@if (Model.Author != null) {
+					<text>by <a href="@Model.GetAuthorUrl()" title="Post by @Model.Author.Name" rel="author">@Model.Author.Name</a></text>
+				}
+			</h4>
+		</header>
+		@if (Model.MainImage != null) {
+			<img src="@Model.MainImage.Src@Model.MainImage.GetCropUrl("article")" class="img-responsive" style="float:left;margin-right:25px;" alt="@Model.Title" itemprop="image">
+		}
+		<div itemprop="description">
+			@Model.BlogContent
+		</div>
+
+		<aside>
+
+			@{
+				if (Model.EnableShareIcons) {
+					Html.RenderPartial("Blog/SocialShare", Model);
+				}
+
+				string categoryHtml = "";
+
+				foreach (IPublishedContent category in Model.Categories) {
+					if (category != null) {
+						categoryHtml += string.Format("<a href=\"{0}category/{1}\">{2}</a>, ", Model.BlogRoot.Url, category.UrlName, category.Name);
+					}
+				}
+
+				if (categoryHtml != "") {
+					<text><span class="glyphicon glyphicon-folder-open"></span>&nbsp;</text>
+					@Html.Raw(categoryHtml.TrimEnd(", "))<text>&nbsp;&nbsp;&nbsp;</text>
+				}
+
+
+				string tagHtml = "";
+
+				foreach (string tag in Model.Tags) {
+
+					tagHtml += string.Format("<a href=\"{0}tag/{1}\">{2}</a>, ", Model.BlogRoot.Url, tag, tag);
+
+				}
+
+				if (tagHtml != "") {
+					<text><span class="glyphicon glyphicon-tag"></span>&nbsp;</text>
+					@Html.Raw(tagHtml.TrimEnd(", "))
+				}
+
+			}
+		</aside>
+		@if (Model.Author != null) {
+			<aside id="author-bio">
+				<h4><a href="@Model.GetAuthorUrl()" title="Posts by @Model.Author.Name" rel="author">@Model.Author.Name</a></h4>
+				<div class="author-blurb author">
+					<p class="vcard">
+						This article was written by <a href="@Model.GetAuthorUrl()" title="Posts by @Model.Author.Name" rel="author">@Model.Author.Name</a>.
+						@Model.Author.Blurb
+					</p>
+					<img alt='Photo of @Model.Author.Name' src='@Model.Author.PhotoUrl.Src@Model.Author.PhotoUrl.GetCropUrl("Thumbnail")' class='avatar' height='128' width='128' />
+				</div>
+			</aside>
+		}
+
+	</article>
+
+	@if (Model.CommentsEnabled) {
+		@Html.CachedPartial("Blog/Comments", Model, 300) @*See /Views/Partials/Blog/Comments.cshtml*@
+
+	}
+</main>

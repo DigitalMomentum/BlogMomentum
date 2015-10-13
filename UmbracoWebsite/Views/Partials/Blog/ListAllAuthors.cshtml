@@ -1,0 +1,20 @@
+﻿@inherits UmbracoViewPage<IPublishedContent>
+@*
+The Model Passed is expected to be the BlogListing Doctype
+*@
+@{
+	var authors = uQuery.GetNodesByType("BlogAuthor");
+	if (authors.Count() > 0) {
+		<h3>Authors</h3>
+		<ul class="list-unstyled">
+		@{
+
+		foreach (var a in authors) {
+				BlogMomentum.Models.BlogAuthor author = new BlogMomentum.Models.BlogAuthor(a.Id);
+				<li><a href="@(Model.Url)author/@author.UrlName"><img src="@author.PhotoUrl.Src@author.PhotoUrl.GetCropUrl("Small Thumb")" alt="@author.Name" /> @author.Name</a></li>
+			}
+		}
+	</ul>
+}
+}
+

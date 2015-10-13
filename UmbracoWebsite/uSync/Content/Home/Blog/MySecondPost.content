@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="ee3eb3f8-02b9-4373-a289-9dfeeb4a5dd5" id="1093" nodeName="My Second Post" isDoc="" updated="2015-10-09T16:34:48.6634951+11:00" parentGUID="8b1aaf95-2c37-4a59-8bbf-dee5f049bbf0" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <blurb></blurb>
+  <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum aliquet venenatis. Integer nec justo consequat, ultrices massa ac, blandit orci. Maecenas id finibus risus, rutrum faucibus nunc. Suspendisse pulvinar nisl ligula, sit amet venenatis ligula ornare ut. Aenean dictum mi gravida sem rhoncus, sed sodales ipsum vulputate. Aliquam et erat lectus. Suspendisse potenti. Ut tincidunt finibus ante, eu elementum justo porta feugiat.</p>
+<p>Duis non sapien tellus. Quisque tincidunt non dolor ac ornare. Ut bibendum porttitor ipsum et bibendum. Aenean a consectetur tortor. Vestibulum egestas nunc justo, non lacinia lorem imperdiet nec. Donec at sollicitudin nibh. Ut porta nibh nec augue porta convallis. Praesent id velit leo. Nullam finibus ultrices blandit. Curabitur auctor, neque auctor mollis rhoncus, risus nibh iaculis enim, id fringilla nunc nisi sit amet libero. Donec finibus nulla mi, at ultrices mauris congue sed. Sed non elit ac nibh gravida ullamcorper. Donec quis eros ullamcorper, sagittis augue sit amet, consectetur neque. Nullam tempus sapien id placerat facilisis.</p>
+<p>Morbi non nibh urna. Donec rutrum porttitor aliquam. Maecenas malesuada purus sem, non fermentum tellus tincidunt et. Mauris at mollis ante. Vivamus ut mi quis lacus dapibus porta ut vitae tellus. Cras eget sem fermentum, malesuada nibh et, facilisis purus. Duis ornare diam non neque fringilla iaculis. Etiam pulvinar tristique fringilla. Nam eu pulvinar orci. Pellentesque est neque, vehicula at auctor sit amet, facilisis in elit. Maecenas aliquet ac enim vel imperdiet. Donec euismod pellentesque felis sed egestas. Maecenas sollicitudin enim sed lacinia suscipit. Nulla sed tortor nec ligula auctor vehicula. Aenean commodo purus enim, vitae faucibus risus accumsan eget. Nunc commodo viverra sem quis pellentesque.</p>
+<p>Mauris mi nisl, maximus ac diam et, sollicitudin aliquet leo. Sed justo odio, consequat vitae pharetra vitae, vehicula at leo. Nam quis tempor libero. Sed eu fringilla lacus. Morbi pretium commodo mi. Praesent ac lacus justo. Mauris non tristique nibh.</p>
+<p>Maecenas quis pretium lorem. Etiam lorem enim, aliquet bibendum dignissim ac, vehicula non enim. Fusce aliquet neque vitae purus sagittis, ut pulvinar odio condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere sit amet tortor nec ornare. Cras aliquet leo ut elit iaculis maximus. Proin eleifend lacus justo, quis vestibulum nulla varius non. Maecenas in nulla lectus. Phasellus ex magna, ultricies et porta id, blandit sed risus. Nullam ut nulla et eros commodo dictum. Phasellus erat lectus, luctus eu magna ac, tristique ultrices neque. Duis rhoncus odio ut mauris posuere consequat. Cras sagittis fermentum varius.</p>]]></content>
+  <mainImage><![CDATA[{
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/1003/city-q-g-640-480-2.jpg",
+  "crops": [
+    {
+      "alias": "Thumbnail",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "alias": "Article",
+      "width": 400,
+      "height": 600
+    }
+  ]
+}]]></mainImage>
+  <entryDate>2015-09-13T00:00:00</entryDate>
+  <author><![CDATA[BD1DF131-C57A-4D29-9673-118CC022B241]]></author>
+  <tags><![CDATA[John]]></tags>
+  <categories><![CDATA[E9AD371E-8252-4125-8178-C1926FE7178F,AFFA9255-227C-436F-B874-6FD5AB0DDCAD]]></categories>
+</BlogPost>

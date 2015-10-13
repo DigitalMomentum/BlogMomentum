@@ -1,0 +1,43 @@
+﻿@inherits UmbracoViewPage<dynamic>
+@{
+	/*** Edit the Following Line ***/
+	string disqus_shortname = Model.DisqusShortname;
+}
+
+@if (!String.IsNullOrEmpty(disqus_shortname)) {
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = '@disqus_shortname'; // required: replace example with your forum shortname
+		var disqus_identifier = '@Model.Content.Id';
+		//var disqus_title = '@Model.Title';
+		//var disqus_url = '@Model.Content.Url';
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function () {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+}else{
+
+		var Ansestors = ((Umbraco.Web.Models.PublishedContentBase)Model.Content).Ancestors().OrderBy(r=>r.Level);
+
+
+	<h1>Comments Error:</h1>
+	<p>Instructions:</p>
+	<ol>
+		<li>Setup and account with <a href="https://disqus.com/" target="_blank">disqus.com</a></li>
+		<li>After Setting up and account, you will recieve a Disqus Shortname.</li>
+		<li>
+			Login to the CMS and go to Content -> @foreach (var ansestor in Ansestors) {
+											 @ansestor.Name<text> -&gt; </text>
+										 } Settings Tab
+		</li>
+		<li>Update Disqus Shortname with your new Disqus Shortname</li>
+		<li>Press <b>Save and Publish</b> and your done!</li>
+	</ol>
+}
+

@@ -1,0 +1,37 @@
+﻿@{
+	Layout = null;
+	string ImageUrl = (Model.MainImage != null) ? Request.Url.Scheme + "://" + Request.Url.Host.ToLower() + Model.MainImage : null;
+}
+@* OPEN GRAPH - http://ogp.me/#types *@
+
+<meta property="og:title" content="@Model.Title" />
+<meta property="og:type" content="article" />
+
+<meta property="article:published_time" content="@Model.EntryDate.ToString("yyyy-MM-dd")" />
+<meta property="article:modified_time" content="@Model.Content.UpdateDate.ToString("yyyy-MM-dd")" />
+<meta property="article:tag" content="@Model.Tags" />
+<meta property="og:description" content="@Model.ShareDescription" />
+<meta property="og:url" content="@Model.FullUrl" />
+@if (ImageUrl != null) {
+	<meta property="og:image" content="@ImageUrl" />
+}
+
+
+	@* TWITTER CARDS - Summary*@
+	@*<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="atflickr" />
+		<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+		<meta name="twitter:description" content="View the album on Flickr." />
+		<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />*@
+
+	@* TWITTER CARDS - With Image - https://dev.twitter.com/cards/types/summary-large-image*@
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Model.TwitterUsername">
+	<meta name="twitter:creator" content="@Model.TwitterUsername">
+	<meta name="twitter:title" content="@Model.Title">
+	<meta name="twitter:description" content="@Model.ShareDescription">
+
+	@if (ImageUrl != null) {
+		<meta name="twitter:image" content="@ImageUrl">
+	}
+

@@ -1,0 +1,18 @@
+﻿@inherits UmbracoViewPage<IPublishedContent>
+@*
+	The Model Passed is expected to be the BlogListing Doctype
+*@
+@{
+	var categories = uQuery.GetNodesByType("BlogCategory");
+	if (categories.Count() > 0) {
+		<h3>Authors</h3>
+		<ul class="list-unstyled">
+			@{
+
+		foreach (var category in categories) {
+			<li><a href="@(Model.Url)category/@category.UrlName">@category.Name</a></li>
+		}
+			}
+		</ul>
+	}
+}

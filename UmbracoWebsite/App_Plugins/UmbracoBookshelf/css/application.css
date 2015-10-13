@@ -1,0 +1,201 @@
+.bookshelf-markup a {
+  color: blue;
+}
+.bookshelf-markup blockquote p {
+  font-size: 15px;
+  color: #999;
+}
+.bookshelf-markup pre > code {
+  display: block;
+  white-space: pre;
+}
+.bookshelf-markup.span6 img {
+  height: 10px;
+  border: 1px solid orange;
+  border-left: 10px solid orange;
+  border-right: 10px solid orange;
+}
+.bookshelf-markup.span12 {
+  overflow: hidden;
+}
+.bookshelf-image-wrapper img:hover {
+  opacity: .6;
+}
+.bookshelf-toolbar {
+  margin-bottom: 5px;
+  padding: 0 16px;
+  position: relative;
+  z-index: 10000;
+}
+.bookshelf-create input[type=text] {
+  width: 400px;
+}
+.bookshelf-library .downloadUrl {
+  width: 500px;
+}
+.bookshelf-library a {
+  color: blue;
+}
+.bookshelf-library table .title {
+  width: 250px;
+}
+.bookshelf-library table .updatedOn {
+  width: 85px;
+}
+.bookshelf-navigation .umb-tree li h5 {
+  color: #333;
+  margin: 5px 0;
+}
+.bookshelf-navigation .umb-tree li h6 {
+  color: #ccc;
+  margin: 5px 0;
+}
+.bookshelf-navigation .book-title {
+  background-color: #999;
+}
+.bookshelf-navigation .book-title :hover {
+  background-color: #999;
+}
+.bookshelf-navigation .book-title h5 {
+  color: #fff !important;
+}
+.bookshelf-navigation .book-title h5 i {
+  margin-right: 5px;
+}
+.bookshelf-navigation .umb-modalcolumn-header .btn.clear-search {
+  position: relative;
+  right: 0;
+}
+
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+code {
+  color: #333;
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  -webkit-text-size-adjust: none;
+}
+.profile .hljs-header *,
+.ini .hljs-title,
+.nginx .hljs-title {
+  color: #fff;
+}
+.hljs-comment,
+.hljs-javadoc,
+.hljs-preprocessor,
+.hljs-preprocessor .hljs-title,
+.hljs-pragma,
+.hljs-shebang,
+.profile .hljs-summary,
+.diff,
+.hljs-pi,
+.hljs-doctype,
+.hljs-tag,
+.css .hljs-rules,
+.tex .hljs-special {
+  color: #444;
+}
+.hljs-string,
+.hljs-symbol,
+.diff .hljs-change,
+.hljs-regexp,
+.xml .hljs-attribute,
+.smalltalk .hljs-char,
+.xml .hljs-value,
+.ini .hljs-value,
+.clojure .hljs-attribute,
+.coffeescript .hljs-attribute {
+  color: #0000cc;
+}
+.hljs-number,
+.hljs-addition {
+  color: #00cc66;
+}
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-typename,
+.go .hljs-constant,
+.ini .hljs-keyword,
+.lua .hljs-title,
+.perl .hljs-variable,
+.php .hljs-variable,
+.mel .hljs-variable,
+.django .hljs-variable,
+.css .funtion,
+.smalltalk .method,
+.hljs-hexcolor,
+.hljs-important,
+.hljs-flow,
+.hljs-inheritance,
+.parser3 .hljs-variable {
+  color: #32aaee;
+}
+.hljs-keyword,
+.hljs-tag .hljs-title,
+.css .hljs-tag,
+.css .hljs-class,
+.css .hljs-id,
+.css .hljs-pseudo,
+.css .hljs-attr_selector,
+.hljs-winutils,
+.tex .hljs-command,
+.hljs-request,
+.hljs-status {
+  color: #6644aa;
+}
+.hljs-title,
+.ruby .hljs-constant,
+.vala .hljs-constant,
+.hljs-parent,
+.hljs-deletion,
+.hljs-template_tag,
+.css .hljs-keyword,
+.objectivec .hljs-class .hljs-id,
+.smalltalk .hljs-class,
+.lisp .hljs-keyword,
+.apache .hljs-tag,
+.nginx .hljs-variable,
+.hljs-envvar,
+.bash .hljs-variable,
+.go .hljs-built_in,
+.vbscript .hljs-built_in,
+.lua .hljs-built_in,
+.rsl .hljs-built_in,
+.tail,
+.avrasm .hljs-label,
+.tex .hljs-formula,
+.tex .hljs-formula * {
+  color: #bb1166;
+}
+.hljs-yardoctag,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.profile .hljs-header,
+.ini .hljs-title,
+.apache .hljs-tag,
+.parser3 .hljs-title {
+  font-weight: bold;
+}
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.6;
+}
+.hljs,
+.hljs-subst,
+.diff .hljs-chunk,
+.css .hljs-value,
+.css .hljs-attribute {
+  color: #aaa;
+}

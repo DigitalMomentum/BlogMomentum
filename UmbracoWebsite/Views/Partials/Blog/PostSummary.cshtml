@@ -1,0 +1,80 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<BlogMomentum.Models.BlogPost>
+
+
+
+<article>
+	<header>
+		<h2><a href="@Model.Content.Url">@Model.Title</a></h2>
+		<h4>
+			<time datetime="@Model.EntryDate.ToString("yyyy-MM-dd")" pubdate>@Model.EntryDate.ToString("MMMM d, yyyy")</time>
+			@if (Model.Author != null) {
+				<text>by <a href="@Model.GetAuthorUrl()" title="Posts by @Model.Author.Name" rel="author">@Model.Author.Name</a></text>
+			}
+
+
+		</h4>
+	</header>
+
+	<div class="row">
+		<div class="col-sm-4">
+			@if (Model.MainImage != null) {
+				<img src="@Model.MainImage.Src@Model.MainImage.GetCropUrl("thumbnail")" class="img-responsive" alt="@Model.Title">
+			}
+		</div>
+		<div class="col-sm-8">
+		
+				@Model.Blurb
+			
+			<p class="text-right">
+				<a href="@Model.Content.Url" class="text-right">
+					continue reading...
+				</a>
+			</p>
+			<hr />
+			<div class="row">
+				<div class="group1 col-sm-6 col-md-6">
+
+					@{
+						string categoryHtml = "";
+
+						foreach (IPublishedContent category in Model.Categories) {
+							if (category != null) {
+								categoryHtml += string.Format("<a href=\"{0}category/{1}\">{2}</a>, ", Model.BlogRoot.Url, category.UrlName, category.Name);
+							}
+						}
+
+						if (categoryHtml != "") {
+							<text><span class="glyphicon glyphicon-folder-open"></span>&nbsp;</text>
+							@Html.Raw(categoryHtml.TrimEnd(", "))<text>&nbsp;&nbsp;&nbsp;</text>
+						}
+
+
+						string tagHtml = "";
+
+						foreach (string tag in Model.Tags) {
+
+							tagHtml += string.Format("<a href=\"{0}tag/{1}\">{2}</a>, ", Model.BlogRoot.Url, tag, tag);
+
+						}
+
+						if (tagHtml != "") {
+							<text><span class="glyphicon glyphicon-tag"></span>&nbsp;</text>
+							@Html.Raw(tagHtml.TrimEnd(", "))
+						}
+
+					}
+
+
+
+
+				</div>
+				<div class="group2 col-sm-6 col-md-6">
+					@*<span class="glyphicon glyphicon-pencil"></span> <a href="singlepost.html#comments">20 Comments</a>*@
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</article>

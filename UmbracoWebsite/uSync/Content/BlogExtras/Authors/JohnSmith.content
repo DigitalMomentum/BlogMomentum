@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogAuthor guid="bd1df131-c57a-4d29-9673-118cc022b241" id="1090" nodeName="John Smith" isDoc="" updated="2015-09-13T01:14:14.993Z" parentGUID="0d29b9f3-0a63-4074-bad2-526c04ae3c04" nodeTypeAlias="BlogAuthor" templateAlias="" sortOrder="0" published="true">
+  <photo><![CDATA[{
+  "focalPoint": {
+    "left": 0.5,
+    "top": 0.5
+  },
+  "src": "/media/1002/people-q-c-300-300-8.jpg",
+  "crops": [
+    {
+      "alias": "Thumbnail",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "alias": "Small Thumb",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}]]></photo>
+  <blurb><![CDATA[<p>John smith has years of experiance</p>]]></blurb>
+</BlogAuthor>

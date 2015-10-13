@@ -1,0 +1,17 @@
+﻿@inherits UmbracoViewPage<dynamic>
+@{
+	Umbraco.Core.Services.ITagService myTagService = ApplicationContext.Services.TagService;
+	var tags = myTagService.GetAllContentTags("Blog");
+	if (tags.Count() > 0) {
+		<h3>Tags</h3>
+		<ul class="list-inline">
+			@{
+
+		foreach (var tag in tags) {
+			<li><a href="@(Model.Url)tag/@tag.Text" class="btn btn-primary btn-xs">@tag.Text</a></li>
+		}
+			}
+
+		</ul>
+	}
+}

@@ -1,0 +1,41 @@
+﻿@inherits UmbracoViewPage<BlogMomentum.Models.RssModel>
+@{
+	Response.Clear();
+	Response.ContentType = "application/rss+xml";
+	Response.ContentEncoding = System.Text.Encoding.UTF8;
+
+	
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+		<channel>
+			<title>@Model.Title</title>
+			@Html.Raw("<link>" + Model.SiteURL + "</link>")
+			<pubdate>@Model.LatestUpdate.ToString("r")</pubdate>
+			<generator>BlogMomentum</generator>
+			<description>@Model.IntroContent</description>
+			<language>en</language>
+			<atom:link href="@Model.Content.UrlWithDomain()rss" rel="self" type="application/rss+xml" />
+			@foreach (var item in Model.AllPosts) {
+				DateTime articleDate = ((item.HasValue("entryDate")) ? item.GetPropertyValue<DateTime>("entryDate") : item.CreateDate);
+
+				if (articleDate < DateTime.Now) { //Only show if its not in the future
+
+					string body = "";
+					if (item.HasValue("mainImage")) {
+						body = "<img src='" + Model.SiteURL + item.GetPropertyValue<string>("mainImage")+"?width=200&height=120' style='float:right' />";
+					}
+					body = body + (item.HasValue("content") ? Model.StripHtml(item.GetPropertyValue<string>("Content")) : "");
+					@Html.Raw("<item>")
+					@Html.Raw("<title><![CDATA[" + item.Name + "]]></title>")
+					@Html.Raw("<link>" + Model.SiteURL + item.Url + "</link>")
+					@Html.Raw("<pubDate>" + articleDate.ToString("r") + "</pubDate>")
+					@Html.Raw("<guid>" + Model.SiteURL + item.Url + "</guid>")
+					@Html.Raw("<description><![CDATA[ " + body.Replace('\n', ' ') + " ]]></description>")
+					@Html.Raw("</item>" + Environment.NewLine)
+				}
+			}
+
+
+		</channel>
+	</rss>
+}
