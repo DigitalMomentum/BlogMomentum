@@ -9,14 +9,15 @@ keep it as easy as possible to install as well as being easily customisable. Cus
 just as you would with any other of your own custom Doc Types. All Data Types are native Umbraco datatypes to keep the blog 
 as future proof as possible.
 
-##General Install Info##
+##Install Info##
+[Download the latest umbraco plugin](https://github.com/DigitalMomentum/BlogMomentum/tree/master/UmbracoWebsite/media/created-packages)
+
 The  Wiki will guide you through the installation and integration of the plugin.
 
 ##How this Repository is structured##
 
 There are 2 main part of the project:
 
-The Blog momentum folder is all the classes and controllers that are needed for the plugin
+* The Blog momentum folder is all the classes and controllers that are needed for the plugin
 
-The UmbracoWebsite folder is a basic install of Umbraco also including the Views and the App_plugin files needed for the project. 
-Using this base install you can then use the package manager to build the plugin ready for installlation into your project.
+* The UmbracoWebsite folder is a basic install of Umbraco also including the Views and the App_plugin files needed for the project. Using this base install you can then use the package manager to build the plugin ready for installlation into your project.
