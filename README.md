@@ -21,3 +21,8 @@ There are 2 main part of the project:
 * The Blog momentum folder is all the classes and controllers that are needed for the plugin
 
 * The UmbracoWebsite folder is a basic install of Umbraco also including the Views and the App_plugin files needed for the project. Using this base install you can then use the package manager to build the plugin ready for installlation into your project.
+
+To run for the first time and setup the umbraco base site:
+* Build the site (This will download all the nuget packages needed)
+* Run UmbracoWebsite/bin/Chauffeur.exe and type the command deliverables - this will setup as SQL Compact DB with the login "admin" / "password"
+* Log into the umbraco backoffice and run the uSync import to import all the doc types, templates etc into your new DB
