@@ -24,5 +24,5 @@ There are 2 main part of the project:
 
 To run for the first time and setup the umbraco base site:
 * Build the site (This will download all the nuget packages needed)
-* Run UmbracoWebsite/bin/Chauffeur.exe and type the command deliverables - this will setup as SQL Compact DB with the login "admin" / "password"
-* Log into the umbraco backoffice and run the uSync import to import all the doc types, templates etc into your new DB
+* Run UmbracoWebsite/bin/Chauffeur.exe and type the command **delivery** - this will setup as SQL Compact DB with the login "admin" / "password"
+* If you recieve an error "The model item passed into the dictionary is of type 'Umbraco.Web.Models.RenderModel'..." Login to the backoffice and right click the root content node and "Republish entire site".
