@@ -11,7 +11,9 @@ The Model Passed is expected to be the BlogListing Doctype
 
 		foreach (var a in authors) {
 				BlogMomentum.Models.BlogAuthor author = new BlogMomentum.Models.BlogAuthor(a.Id);
-				<li><a href="@(Model.Url)author/@author.UrlName"><img src="@author.PhotoUrl.Src@author.PhotoUrl.GetCropUrl("Small Thumb")" alt="@author.Name" /> @author.Name</a></li>
+				<li>@if (author.PhotoUrl != null) {
+                    <img src="@author.PhotoUrl.Src@author.PhotoUrl.GetCropUrl("Small Thumb")" alt="@author.Name" />
+                } @author.Name</a></li>
 			}
 		}
 	</ul>

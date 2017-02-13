@@ -14,43 +14,52 @@ namespace BlogMomentum.Controllers {
 	public class BlogListingController : RenderMvcController {
 
 		public ActionResult BlogListing(BlogListing model) {
+
 			string nodeUrl = model.Content.Url;
 			string currentUrl = Request.Url.AbsolutePath;
 			currentUrl = currentUrl.TrimStart('/');
 
 			string[] urlSegments = Uri.UnescapeDataString(currentUrl).ToLower().Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
 
-			if (urlSegments.Length > 1) {
+			//if (urlSegments.Length > 1) {
+			string type = null;
 				for (int i = 0; i < urlSegments.Length; i++) {
 					switch (urlSegments[i]) {
 						case "rss":
-							//return View("BlogRss", new RssModel(model, urlSegments));
+						//return View("BlogRss", new RssModel(model, urlSegments));
+						type = "rss";
 							return View("BlogRss", new RssModel(model, urlSegments));
 						case "author":
-							//model.BlogEntries = GetPagedBlogPostsByAuthor(model, urlSegments[i + 1]);
-							//return CurrentTemplate(model);
-							model.Load(Models.BlogListing.PageType.Author, Uri.UnescapeDataString(urlSegments[i + 1]));
+						//model.BlogEntries = GetPagedBlogPostsByAuthor(model, urlSegments[i + 1]);
+						//return CurrentTemplate(model);
+						type = "author";
+						model.Load(Models.BlogListing.PageType.Author, Uri.UnescapeDataString(urlSegments[i + 1]));
 							break;
 						case "tag":
-							//model.BlogEntries = GetPagedBlogPostsByTag(model, urlSegments[i + 1]);
-							//return CurrentTemplate(model);
-							model.Load(Models.BlogListing.PageType.Tag, Uri.UnescapeDataString(urlSegments[i + 1]));
+						//model.BlogEntries = GetPagedBlogPostsByTag(model, urlSegments[i + 1]);
+						//return CurrentTemplate(model);
+						type = "tag";
+						model.Load(Models.BlogListing.PageType.Tag, Uri.UnescapeDataString(urlSegments[i + 1]));
 							break;
 						case "category":
-							//model.BlogEntries = GetPagedBlogPostsByCategory(model, urlSegments[i + 1]);
-							//return CurrentTemplate(model);
-							model.Load(Models.BlogListing.PageType.Category, Uri.UnescapeDataString(urlSegments[i + 1]));
+						//model.BlogEntries = GetPagedBlogPostsByCategory(model, urlSegments[i + 1]);
+						//return CurrentTemplate(model);
+						type = "category";
+						model.Load(Models.BlogListing.PageType.Category, Uri.UnescapeDataString(urlSegments[i + 1]));
 							break;
 					}
 				}
-				//if (urlSegments[1] == "rss") {
+			//if (urlSegments[1] == "rss") {
 
-				//} else {
-				//	return View("BlogEntry", new BlogEntry(model));
-				//}
-			} else {
+			//} else {
+			//	return View("BlogEntry", new BlogEntry(model));
+			//}
+			//} else {
+			if (type == null) {
+				//Could not find a type so assume that its the landing page
 				model.Load(Models.BlogListing.PageType.Landing);
 			}
+			//}
 			//return base.Index(model);
 
 			//model.BlogEntries = GetPagedBlogPosts(model);
