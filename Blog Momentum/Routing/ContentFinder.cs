@@ -19,7 +19,7 @@ namespace BlogMomentum.Routing {
 		public bool TryFindContent(PublishedContentRequest contentRequest) {
 			
 			string fullUri = contentRequest.Uri.AbsolutePath;
-			Regex reg = new Regex("author|category|tag|rss|year");
+			Regex reg = new Regex("/author/|/category/|/tag/|/rss/|/year/");
 			if (reg.IsMatch(fullUri)) { //Simple regex match to see if it's a possible url to redirect. If not, lets not worry about the overhead and just return false
 				if (uQuery.GetNodesByType("BlogEntry").Where(r => r.Url.StartsWith(fullUri, StringComparison.InvariantCultureIgnoreCase)).Count() > 0) {
 					//We've found a match to a blog entry, so no need to redirect
