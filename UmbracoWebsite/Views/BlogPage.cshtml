@@ -31,8 +31,11 @@
 			</section>
 			<section>
 
-				@Html.CachedPartial("Blog/ListAllTags", BlogRoot, 300) @*See /Views/Partials/Blog/ListAllTags.cshtml*@
-			</section>
+				@Html.CachedPartial("Blog/listArchiveYears", BlogRoot, 86400) @*See /Views/Partials/Blog/listArchiveYears.cshtml*@
+			</section><section>
+
+	@Html.CachedPartial("Blog/ListArchiveYears", BlogRoot, 300) @*See /Views/Partials/Blog/ListAllTags.cshtml*@
+</section>
 		</aside>
 
 		</div>

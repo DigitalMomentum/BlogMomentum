@@ -17,6 +17,9 @@
 		case BlogListing.PageType.Tag:
 			title = string.Format("Posts tagged with <b>{0}</b>", Model.PageKey);
 			break;
+		case BlogListing.PageType.Year:
+			title = string.Format("Posts published in <b>{0}</b>", Model.PageKey);
+			break;
 	}
 }
 

@@ -47,7 +47,13 @@ namespace BlogMomentum.Controllers {
 						type = "category";
 						model.Load(Models.BlogListing.PageType.Category, Uri.UnescapeDataString(urlSegments[i + 1]));
 							break;
-					}
+					case "year":
+						//model.BlogEntries = GetPagedBlogPostsByCategory(model, urlSegments[i + 1]);
+						//return CurrentTemplate(model);
+						type = "year";
+						model.Load(Models.BlogListing.PageType.Year, Uri.UnescapeDataString(urlSegments[i + 1]));
+						break;
+				}
 				}
 			//if (urlSegments[1] == "rss") {
 

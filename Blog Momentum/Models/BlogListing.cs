@@ -24,7 +24,8 @@ namespace BlogMomentum.Models
 			Landing,
 			Author,
 			Category,
-			Tag
+			Tag,
+			Year
 		}
 
 		/// <summary>
@@ -70,8 +71,13 @@ namespace BlogMomentum.Models
 				case PageType.Category:
 					BlogEntries = GetPagedBlogPostsByCategory(pageKey);
 					break;
+				case PageType.Year:
+					BlogEntries = GetPagedBlogPostsByYear(int.Parse(pageKey));
+					break;
 			}
 		}
+
+
 
 		/// <summary>
 		/// Title of the Blog
@@ -183,6 +189,12 @@ namespace BlogMomentum.Models
 			tag = tag.ToLower();
 			return GetPagedPosts(Content.Children.Where(r => r.GetProperty("tags").HasValue && r.GetProperty("tags").Value.ToString().ToLower().Contains(tag)).ToList());
 	
+
+		}
+
+		private IEnumerable<IPublishedContent> GetPagedBlogPostsByYear(int year) {
+			
+			return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue && r.GetPropertyValue<DateTime>("entryDate").Year == year).ToList());
 
 		}
 
