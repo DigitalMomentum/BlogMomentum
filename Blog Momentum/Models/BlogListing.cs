@@ -51,7 +51,7 @@ namespace BlogMomentum.Models
 				PageSize = 10;
 			}
 
-			IntroContent = (Content.HasValue("content")) ? Content.GetPropertyValue<HtmlString>("content") : null;
+			IntroContent = (Content.HasValue("openingContent")) ? Content.GetPropertyValue<HtmlString>("openingContent") : null;
 
 			PageListingType = pageType;
 			PageKey = pageKey;
