@@ -1,23 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <usync.data>
   <content>
+    <info guid="8f922c3f-2d27-4603-a4d3-603c2d148db2" name="Blog Extras" parent="-1" />
+    <info guid="0d29b9f3-0a63-4074-bad2-526c04ae3c04" name="Authors" parent="1087" />
+    <info guid="bd1df131-c57a-4d29-9673-118cc022b241" name="John Smith" parent="1088" />
+    <info guid="8d29db72-cd5a-4df0-adc0-4cc419fd75b1" name="Categories" parent="1087" />
+    <info guid="affa9255-227c-436f-b874-6fd5ab0ddcad" name="Business" parent="1089" />
+    <info guid="e9ad371e-8252-4125-8178-c1926fe7178f" name="Information Tech" parent="1089" />
     <info guid="b11aa9a9-c76f-46cc-a8cc-f1e709f948bb" name="Home" parent="-1" />
     <info guid="8b1aaf95-2c37-4a59-8bbf-dee5f049bbf0" name="Blog" parent="1059" />
     <info guid="b51c401f-6571-4177-9dae-194fb753d559" name="My First Post" parent="1066" />
-    <info guid="6364f393-aabb-4aa0-a820-243b1405b125" name="Blog Extras" parent="-1" />
-    <info guid="b5a0afbd-a427-4305-8992-e2748db06c3f" name="Authors" parent="1069" />
-    <info guid="b31f88bc-a7f0-48cb-ab78-cc0a7e652528" name="Categories" parent="1069" />
-    <info guid="6b59b5fc-639e-4772-82f8-2b93d39fec31" name="Authors" parent="1069" />
-    <info guid="46f9f6bd-aecd-4e35-8551-6bebf3d6d8ce" name="Categories" parent="1069" />
-    <info guid="dcac5625-b5db-4814-87ec-403784e471b3" name="John Smith" parent="1070" />
-    <info guid="d6c07f17-ccaf-4685-b04b-b7feb1bd2e5e" name="Business" parent="1071" />
-    <info guid="54674a4e-3a56-431c-b67b-4bf5c3a443f9" name="Information Tech" parent="1071" />
-    <info guid="bd1df131-c57a-4d29-9673-118cc022b241" name="John Smith" parent="1088" />
-    <info guid="affa9255-227c-436f-b874-6fd5ab0ddcad" name="Business" parent="1089" />
-    <info guid="e9ad371e-8252-4125-8178-c1926fe7178f" name="Information Tech" parent="1089" />
     <info guid="ee3eb3f8-02b9-4373-a289-9dfeeb4a5dd5" name="My Second Post" parent="1066" />
-    <info guid="8f922c3f-2d27-4603-a4d3-603c2d148db2" name="Blog Extras" parent="-1" />
-    <info guid="0d29b9f3-0a63-4074-bad2-526c04ae3c04" name="Authors" parent="1087" />
-    <info guid="8d29db72-cd5a-4df0-adc0-4cc419fd75b1" name="Categories" parent="1087" />
   </content>
 </usync.data>

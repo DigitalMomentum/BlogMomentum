@@ -1,288 +1,1017 @@
-﻿2015-10-09 16:24:50,414 [6] INFO  Umbraco.Core.CoreBootManager - [P15332/T1/D2] Umbraco 7.2.8 application starting on VAIO
-2015-10-09 16:24:50,473 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Determining hash of code files on disk
-2015-10-09 16:24:50,488 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Hash determined (took 13ms)
-2015-10-09 16:24:50,494 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2015-10-09 16:24:50,514 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 19ms)
-2015-10-09 16:24:50,604 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2015-10-09 16:24:50,605 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
-2015-10-09 16:24:50,605 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
-2015-10-09 16:24:50,606 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
-2015-10-09 16:24:50,622 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2015-10-09 16:24:50,624 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
-2015-10-09 16:24:50,624 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2015-10-09 16:24:50,629 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 4ms)
-2015-10-09 16:24:50,678 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2015-10-09 16:24:50,679 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
-2015-10-09 16:24:50,679 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2015-10-09 16:24:50,679 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
-2015-10-09 16:24:51,346 [6] INFO  Umbraco.Core.DatabaseContext - [P15332/T1/D2] CanConnect = True
-2015-10-09 16:24:51,372 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2015-10-09 16:24:51,374 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
-2015-10-09 16:24:52,198 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-10-09 16:24:52,202 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 3ms)
-2015-10-09 16:24:52,781 [6] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P15332/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
-2015-10-09 16:24:52,806 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T1/D2] Initializing Examine and binding to business logic events
-2015-10-09 16:24:52,881 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T1/D2] Adding examine event handlers for index providers: 3
-2015-10-09 16:24:52,902 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
-2015-10-09 16:24:52,997 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
-2015-10-09 16:24:53,136 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
-2015-10-09 16:24:53,138 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
-2015-10-09 16:24:53,413 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
-2015-10-09 16:24:53,715 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
-2015-10-09 16:24:53,872 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Templates (966ms)
-2015-10-09 16:24:53,874 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Stylesheets (1ms)
-2015-10-09 16:24:55,068 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed data types (1192ms)
-2015-10-09 16:24:56,059 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Doctypes [10](989ms)
-2015-10-09 16:24:56,062 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Macros (1ms)
-2015-10-09 16:24:56,982 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Media types (919ms)
-2015-10-09 16:24:57,001 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Languages (17ms)
-2015-10-09 16:24:57,003 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Dictionary items (1ms)
-2015-10-09 16:24:57,369 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Processed Member types (365ms)
-2015-10-09 16:24:57,372 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] Attaching MemberTypes events
-2015-10-09 16:24:57,373 [6] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D2] uSync Initialized (4470ms)
-2015-10-09 16:24:57,374 [6] INFO  jumoo.usync.content.ContentSync - [P15332/T1/D2] Initalizing uSync Content Edition
-2015-10-09 16:24:57,393 [6] INFO  jumoo.usync.content.MediaExporter - [P15332/T1/D2] Exporting Content
-2015-10-09 16:24:57,431 [6] INFO  jumoo.usync.content.MediaExporter - [P15332/T1/D2] Media Export Complete [0.0381253 Seconds]
-2015-10-09 16:24:57,439 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] ## Import Starting
-2015-10-09 16:24:57,497 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Blog Extras no change
-2015-10-09 16:24:57,528 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Authors no change
-2015-10-09 16:24:57,564 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] John Smith no change
-2015-10-09 16:24:57,604 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Categories no change
-2015-10-09 16:24:57,636 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Business no change
-2015-10-09 16:24:57,654 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Information Tech no change
-2015-10-09 16:24:57,699 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Home no change
-2015-10-09 16:24:57,743 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Blog no change
-2015-10-09 16:24:57,797 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] My First Post no change
-2015-10-09 16:24:57,830 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] My Second Post no change
-2015-10-09 16:24:57,835 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] ## Import Complete [0.3951018 Seconds]
-2015-10-09 16:24:57,835 [6] INFO  jumoo.usync.content.MediaImporter - [P15332/T1/D2] >> Media Import starting
-2015-10-09 16:24:57,841 [6] INFO  jumoo.usync.content.MediaImporter - [P15332/T1/D2] << Media Import complete [0.0056422 seconds]
-2015-10-09 16:24:57,844 [6] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D2] Mapping Ids on 0 changed nodes
-2015-10-09 16:24:57,845 [6] INFO  jumoo.usync.content.ContentEvents - [P15332/T1/D2] Attaching to Save/Delete events
-2015-10-09 16:24:57,846 [6] INFO  jumoo.usync.content.MediaEvents - [P15332/T1/D2] attaching to media events
-2015-10-09 16:24:57,848 [6] INFO  jumoo.usync.content.ContentSync - [P15332/T1/D2] uSync Content Edition Initilized [0.4730944 seconds]
-2015-10-09 16:24:57,849 [6] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P15332/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
-2015-10-09 16:24:57,858 [6] INFO  Umbraco.Core.CoreBootManager - [P15332/T1/D2] Umbraco application startup complete (took 7424ms)
-2015-10-09 16:24:58,237 [6] INFO  Umbraco.Core.ApplicationContext - [P15332/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
-2015-10-09 16:24:58,308 [6] INFO  umbraco.content - [P15332/T1/D2] Load Xml from file...
-2015-10-09 16:24:58,325 [6] INFO  umbraco.content - [P15332/T1/D2] Loaded Xml from file.
-2015-10-09 16:25:59,531 [6] INFO  umbraco.BusinessLogic.Log - [P15332/T1/D2] Log scrubbed.  Removed all items older than 2015-08-10 16:25:59
-2015-10-09 16:26:05,857 [6] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P15332/T1/D2] Login attempt failed for username admin from IP address ::1
-2015-10-09 16:26:09,244 [6] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P15332/T1/D2] Login attempt succeeded for username admin from IP address ::1
-2015-10-09 16:26:09,274 [6] INFO  Umbraco.Web.Security.WebSecurity - [P15332/T1/D2] User Id: 0 logged in
-2015-10-09 16:26:09,366 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-10-09 16:26:09,367 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 1ms)
-2015-10-09 16:26:09,585 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of umbraco.interfaces.ITree
-2015-10-09 16:26:09,586 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
-2015-10-09 16:26:09,602 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-10-09 16:26:09,602 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 0ms)
-2015-10-09 16:26:09,605 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of umbraco.interfaces.ITree
-2015-10-09 16:26:09,605 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
-2015-10-09 16:26:09,657 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Starting resolution types of umbraco.interfaces.IApplication
-2015-10-09 16:26:09,659 [6] INFO  Umbraco.Core.PluginManager - [P15332/T1/D2] Completed resolution of types of umbraco.interfaces.IApplication, found 8 (took 1ms)
-2015-10-09 16:31:28,637 [6] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D2] Saving [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\/StyleSheet/BlogMomentum.config]
-2015-10-09 16:31:34,989 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledPublishing] Terminating
-2015-10-09 16:31:34,989 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
-2015-10-09 16:31:34,990 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [LogScrubber] Terminating
-2015-10-09 16:31:34,990 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [LogScrubber] Waiting for tasks to complete
-2015-10-09 16:31:34,992 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledPublishing] Tasks completed, terminated
-2015-10-09 16:31:34,992 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [LogScrubber] Tasks completed, terminated
-2015-10-09 16:31:34,992 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [KeepAlive] Terminating
-2015-10-09 16:31:34,992 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [KeepAlive] Waiting for tasks to complete
-2015-10-09 16:31:34,993 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [KeepAlive] Tasks completed, terminated
-2015-10-09 16:31:37,031 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledTasks] Terminating
-2015-10-09 16:31:37,031 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledTasks] Waiting for tasks to complete
-2015-10-09 16:31:37,031 [6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D2] [ScheduledTasks] Tasks completed, terminated
-2015-10-09 16:31:55,769 [25] INFO  Umbraco.Core.CoreBootManager - [P15332/T1/D3] Umbraco 7.2.8 application starting on VAIO
-2015-10-09 16:31:55,801 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Determining hash of code files on disk
-2015-10-09 16:31:55,817 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Hash determined (took 6ms)
-2015-10-09 16:31:55,817 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2015-10-09 16:31:55,863 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 34ms)
-2015-10-09 16:31:55,943 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2015-10-09 16:31:55,944 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
-2015-10-09 16:31:55,945 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
-2015-10-09 16:31:55,946 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
-2015-10-09 16:31:55,965 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2015-10-09 16:31:55,966 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
-2015-10-09 16:31:55,966 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2015-10-09 16:31:55,970 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 6ms)
-2015-10-09 16:31:56,032 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2015-10-09 16:31:56,033 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
-2015-10-09 16:31:56,033 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2015-10-09 16:31:56,034 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
-2015-10-09 16:31:56,703 [25] INFO  Umbraco.Core.DatabaseContext - [P15332/T1/D3] CanConnect = True
-2015-10-09 16:31:56,745 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2015-10-09 16:31:56,749 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 3ms)
-2015-10-09 16:31:57,340 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-10-09 16:31:57,343 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 2ms)
-2015-10-09 16:31:57,612 [25] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P15332/T1/D3] Initializing Umbraco internal event handlers for cache refreshing
-2015-10-09 16:31:57,627 [25] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T1/D3] Initializing Examine and binding to business logic events
-2015-10-09 16:31:57,707 [25] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T1/D3] Adding examine event handlers for index providers: 3
-2015-10-09 16:31:57,723 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
-2015-10-09 16:31:57,768 [25] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
-2015-10-09 16:31:57,806 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
-2015-10-09 16:31:57,806 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 2ms)
-2015-10-09 16:31:57,896 [25] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
-2015-10-09 16:31:57,946 [25] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
-2015-10-09 16:31:57,963 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Templates (230ms)
-2015-10-09 16:31:58,007 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Stylesheets (42ms)
-2015-10-09 16:31:58,105 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed data types (96ms)
-2015-10-09 16:31:58,283 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Doctypes [10](177ms)
-2015-10-09 16:31:58,284 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Macros (0ms)
-2015-10-09 16:31:59,394 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Media types (1118ms)
-2015-10-09 16:31:59,417 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Languages (13ms)
-2015-10-09 16:31:59,420 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Dictionary items (1ms)
-2015-10-09 16:31:59,978 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Processed Member types (557ms)
-2015-10-09 16:31:59,984 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Attaching MemberTypes events
-2015-10-09 16:31:59,984 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] uSync Initialized (2261ms)
-2015-10-09 16:31:59,986 [25] INFO  jumoo.usync.content.ContentSync - [P15332/T1/D3] Initalizing uSync Content Edition
-2015-10-09 16:31:59,995 [25] INFO  jumoo.usync.content.MediaExporter - [P15332/T1/D3] Exporting Content
-2015-10-09 16:32:00,087 [25] INFO  jumoo.usync.content.MediaExporter - [P15332/T1/D3] Media Export Complete [0.0920808 Seconds]
-2015-10-09 16:32:00,089 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] ## Import Starting
-2015-10-09 16:32:00,163 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Blog Extras no change
-2015-10-09 16:32:00,198 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Authors no change
-2015-10-09 16:32:00,230 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] John Smith no change
-2015-10-09 16:32:00,279 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Categories no change
-2015-10-09 16:32:00,309 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Business no change
-2015-10-09 16:32:00,309 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Information Tech no change
-2015-10-09 16:32:00,380 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Home no change
-2015-10-09 16:32:00,429 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Blog no change
-2015-10-09 16:32:00,496 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] My First Post no change
-2015-10-09 16:32:00,534 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] My Second Post no change
-2015-10-09 16:32:00,540 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] ## Import Complete [0.4509786 Seconds]
-2015-10-09 16:32:00,541 [25] INFO  jumoo.usync.content.MediaImporter - [P15332/T1/D3] >> Media Import starting
-2015-10-09 16:32:00,546 [25] INFO  jumoo.usync.content.MediaImporter - [P15332/T1/D3] << Media Import complete [0.0047571 seconds]
-2015-10-09 16:32:00,550 [25] INFO  jumoo.usync.content.ContentImporter - [P15332/T1/D3] Mapping Ids on 0 changed nodes
-2015-10-09 16:32:00,550 [25] INFO  jumoo.usync.content.ContentEvents - [P15332/T1/D3] Attaching to Save/Delete events
-2015-10-09 16:32:00,550 [25] INFO  jumoo.usync.content.MediaEvents - [P15332/T1/D3] attaching to media events
-2015-10-09 16:32:00,550 [25] INFO  jumoo.usync.content.ContentSync - [P15332/T1/D3] uSync Content Edition Initilized [0.564236 seconds]
-2015-10-09 16:32:00,550 [25] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P15332/T1/D3] UmbracoBookshelf.Examine.BookshelfExamineDataService
-2015-10-09 16:32:00,550 [25] INFO  Umbraco.Core.CoreBootManager - [P15332/T1/D3] Umbraco application startup complete (took 4772ms)
-2015-10-09 16:32:01,002 [25] INFO  Umbraco.Core.ApplicationContext - [P15332/T1/D3] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
-2015-10-09 16:32:01,199 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of umbraco.interfaces.IApplication
-2015-10-09 16:32:01,204 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of umbraco.interfaces.IApplication, found 8 (took 1ms)
-2015-10-09 16:32:01,284 [25] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D3] Failed to Archive BlogMomentum, StyleSheet
-2015-10-09 16:32:01,284 [25] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D3] Archived [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\\StyleSheet\BlogMomentum.config] to [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync.Archive\StyleSheet\BlogMomentum_091015_163201.config]
-2015-10-09 16:32:01,284 [25] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D3] Saving [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\/StyleSheet/BlogMomentum.config]
-2015-10-09 16:32:01,284 [25] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D3] Saving [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\/StyleSheet/BlogMomentum.config]
-2015-10-09 16:32:01,300 [25] INFO  jumps.umbraco.usync.SyncStylesheet - [P15332/T1/D3] uSync: Error Reading Stylesheet BlogMomentum - System.IO.IOException: The process cannot access the file 'C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config' because it is being used by another process.
-   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
-   at System.Xml.XmlDocument.Save(String filename)
-   at jumps.umbraco.usync.helpers.XmlDoc.SaveXmlDoc(String path, XmlDocument doc)
-   at jumps.umbraco.usync.helpers.XmlDoc.SaveXmlDoc(String type, String name, XmlDocument doc)
-   at jumps.umbraco.usync.SyncStylesheet.SaveToDisk(StyleSheet item)
-2015-10-09 16:32:01,589 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-10-09 16:32:01,591 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 1ms)
-2015-10-09 16:32:01,594 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of umbraco.interfaces.ITree
-2015-10-09 16:32:01,595 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 1ms)
-2015-10-09 16:32:01,732 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of umbraco.interfaces.ITree
-2015-10-09 16:32:01,733 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
-2015-10-09 16:32:07,088 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [P15332/T1/D2] Application shutdown. Reason: ConfigurationChange
-2015-10-09 16:32:26,633 [25] INFO  umbraco.content - [P15332/T1/D3] Load Xml from file...
-2015-10-09 16:32:26,634 [25] INFO  umbraco.content - [P15332/T1/D3] Loaded Xml from file.
-2015-10-09 16:33:01,347 [25] INFO  umbraco.BusinessLogic.Log - [P15332/T1/D3] Log scrubbed.  Removed all items older than 2015-08-10 16:33:01
-2015-10-09 16:33:13,411 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Starting resolution types of Umbraco.Web.Trees.TreeController
-2015-10-09 16:33:13,411 [25] INFO  Umbraco.Core.PluginManager - [P15332/T1/D3] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 5 (took 0ms)
-2015-10-09 16:33:20,928 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T1/D3] Content 'My First Post' with Id '1067' has been published.
-2015-10-09 16:33:21,065 [25] INFO  jumoo.usync.content.ContentExporter - [P15332/T1/D3] Saving My First Post [MyFirstPost]
-2015-10-09 16:33:21,070 [25] INFO  jumoo.usync.content.ContentExporter - [P15332/T1/D3] Exporting content MyFirstPost
-2015-10-09 16:33:25,733 [25] INFO  umbraco.content - [P15332/T1/D3] Save Xml to file...
-2015-10-09 16:33:25,733 [25] INFO  umbraco.content - [P15332/T1/D3] Saved Xml to file.
-2015-10-09 16:34:48,663 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T1/D3] Content 'My Second Post' with Id '1093' has been published.
-2015-10-09 16:34:48,691 [25] INFO  jumoo.usync.content.ContentExporter - [P15332/T1/D3] Saving My Second Post [MySecondPost]
-2015-10-09 16:34:48,691 [25] INFO  jumoo.usync.content.ContentExporter - [P15332/T1/D3] Exporting content MySecondPost
-2015-10-09 16:34:52,906 [25] INFO  umbraco.content - [P15332/T1/D3] Save Xml to file...
-2015-10-09 16:34:52,913 [25] INFO  umbraco.content - [P15332/T1/D3] Saved Xml to file.
-2015-10-09 16:36:34,446 [25] INFO  jumps.umbraco.usync.uSync - [P15332/T1/D3] Saving C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\\DocumentType\\MasterPage\Textpage\def.config
-2015-10-09 16:36:34,454 [25] INFO  jumps.umbraco.usync.helpers.XmlDoc - [P15332/T1/D3] Archived [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\\DocumentType\MasterPage\Textpage\def.config] to [C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync.Archive\DocumentType\MasterPage\Textpage\def_091015_163634.config]
-2015-10-09 17:36:48,129 [25] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P15332/T1/D3] Login attempt failed for username admin from IP address ::1
-2015-10-09 17:36:52,543 [25] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P15332/T1/D3] Login attempt succeeded for username admin from IP address ::1
-2015-10-09 17:36:52,559 [25] INFO  Umbraco.Web.Security.WebSecurity - [P15332/T1/D3] User Id: 0 logged in
-2015-10-09 17:37:31,981 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [KeepAlive] Terminating
-2015-10-09 17:37:31,981 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [KeepAlive] Waiting for tasks to complete
-2015-10-09 17:37:31,997 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [KeepAlive] Tasks completed, terminated
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledPublishing] Terminating
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledPublishing] Waiting for tasks to complete
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledTasks] Terminating
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledTasks] Waiting for tasks to complete
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [LogScrubber] Terminating
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [LogScrubber] Waiting for tasks to complete
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledTasks] Tasks completed, terminated
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [ScheduledPublishing] Tasks completed, terminated
-2015-10-09 17:37:34,059 [25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P15332/T1/D3] [LogScrubber] Tasks completed, terminated
-2015-10-09 17:38:02,308 [194] INFO  Umbraco.Core.CoreBootManager - [P15332/T195/D4] Umbraco 7.2.8 application starting on VAIO
-2015-10-09 17:38:02,371 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Determining hash of code files on disk
-2015-10-09 17:38:02,386 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Hash determined (took 18ms)
-2015-10-09 17:38:02,402 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2015-10-09 17:38:02,433 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 26ms)
-2015-10-09 17:38:02,496 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2015-10-09 17:38:02,496 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
-2015-10-09 17:38:02,496 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
-2015-10-09 17:38:02,496 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
-2015-10-09 17:38:02,511 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2015-10-09 17:38:02,527 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 2ms)
-2015-10-09 17:38:02,527 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2015-10-09 17:38:02,527 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 6ms)
-2015-10-09 17:38:02,574 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2015-10-09 17:38:02,574 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
-2015-10-09 17:38:02,574 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2015-10-09 17:38:02,574 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
-2015-10-09 17:38:03,140 [194] INFO  Umbraco.Core.DatabaseContext - [P15332/T195/D4] CanConnect = True
-2015-10-09 17:38:03,156 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2015-10-09 17:38:03,156 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
-2015-10-09 17:38:03,692 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2015-10-09 17:38:03,692 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 2ms)
-2015-10-09 17:38:03,957 [194] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P15332/T195/D4] Initializing Umbraco internal event handlers for cache refreshing
-2015-10-09 17:38:03,973 [194] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T195/D4] Initializing Examine and binding to business logic events
-2015-10-09 17:38:04,035 [194] INFO  Umbraco.Web.Search.ExamineEvents - [P15332/T195/D4] Adding examine event handlers for index providers: 3
-2015-10-09 17:38:04,051 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
-2015-10-09 17:38:04,082 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [P15332/T1/D3] Application shutdown. Reason: ConfigurationChange
-2015-10-09 17:38:04,129 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Starting resolution types of umbraco.interfaces.ICacheRefresher
-2015-10-09 17:38:04,129 [194] INFO  Umbraco.Core.PluginManager - [P15332/T195/D4] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
-2015-10-09 17:38:04,192 [194] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T195/D4] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
-2015-10-09 17:38:04,238 [194] INFO  jumps.umbraco.usync.SyncTemplate - [P15332/T195/D4] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
-2015-10-09 17:38:04,254 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Templates (196ms)
-2015-10-09 17:38:04,285 [194] INFO  jumps.umbraco.usync.SyncStylesheet - [P15332/T195/D4] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
-2015-10-09 17:38:04,301 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Stylesheets (51ms)
-2015-10-09 17:38:04,395 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed data types (91ms)
-2015-10-09 17:38:04,535 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Doctypes [10](143ms)
-2015-10-09 17:38:04,535 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Macros (0ms)
-2015-10-09 17:38:05,426 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Media types (877ms)
-2015-10-09 17:38:05,442 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Languages (15ms)
-2015-10-09 17:38:05,442 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Dictionary items (1ms)
-2015-10-09 17:38:05,911 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Processed Member types (473ms)
-2015-10-09 17:38:05,911 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] Attaching MemberTypes events
-2015-10-09 17:38:05,911 [194] INFO  jumps.umbraco.usync.uSync - [P15332/T195/D4] uSync Initialized (1869ms)
-2015-10-09 17:38:05,911 [194] INFO  jumoo.usync.content.ContentSync - [P15332/T195/D4] Initalizing uSync Content Edition
-2015-10-09 17:38:05,926 [194] INFO  jumoo.usync.content.MediaExporter - [P15332/T195/D4] Exporting Content
-2015-10-09 17:38:05,957 [194] INFO  jumoo.usync.content.MediaExporter - [P15332/T195/D4] Media Export Complete [0.0366775 Seconds]
-2015-10-09 17:38:05,957 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] ## Import Starting
-2015-10-09 17:38:06,004 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Blog Extras no change
-2015-10-09 17:38:06,020 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Authors no change
-2015-10-09 17:38:06,051 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] John Smith no change
-2015-10-09 17:38:06,067 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Categories no change
-2015-10-09 17:38:06,098 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Business no change
-2015-10-09 17:38:06,114 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Information Tech no change
-2015-10-09 17:38:06,145 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Home no change
-2015-10-09 17:38:06,176 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Blog no change
-2015-10-09 17:38:06,270 [194] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T195/D4] Content 'My First Post' with Id '1067' has been published.
-2015-10-09 17:38:06,360 [194] INFO  umbraco.content - [P15332/T195/D4] Load Xml from file...
-2015-10-09 17:38:06,361 [194] INFO  umbraco.content - [P15332/T195/D4] Loaded Xml from file.
-2015-10-09 17:38:06,567 [194] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T195/D4] Content 'My Second Post' with Id '1093' has been published.
-2015-10-09 17:38:06,630 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] ## Import Complete [0.6604118 Seconds]
-2015-10-09 17:38:06,630 [194] INFO  jumoo.usync.content.MediaImporter - [P15332/T195/D4] >> Media Import starting
-2015-10-09 17:38:06,630 [194] INFO  jumoo.usync.content.MediaImporter - [P15332/T195/D4] << Media Import complete [0.005408 seconds]
-2015-10-09 17:38:06,630 [194] INFO  jumoo.usync.content.ContentImporter - [P15332/T195/D4] Mapping Ids on 2 changed nodes
-2015-10-09 17:38:06,739 [194] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T195/D4] Content 'My First Post' with Id '1067' has been published.
-2015-10-09 17:38:06,989 [194] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P15332/T195/D4] Content 'My Second Post' with Id '1093' has been published.
-2015-10-09 17:38:07,083 [194] INFO  jumoo.usync.content.ContentEvents - [P15332/T195/D4] Attaching to Save/Delete events
-2015-10-09 17:38:07,083 [194] INFO  jumoo.usync.content.MediaEvents - [P15332/T195/D4] attaching to media events
-2015-10-09 17:38:07,083 [194] INFO  jumoo.usync.content.ContentSync - [P15332/T195/D4] uSync Content Edition Initilized [1.1730717 seconds]
-2015-10-09 17:38:07,098 [194] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P15332/T195/D4] UmbracoBookshelf.Examine.BookshelfExamineDataService
-2015-10-09 17:38:07,098 [194] INFO  Umbraco.Core.CoreBootManager - [P15332/T195/D4] Umbraco application startup complete (took 4765ms)
-2015-10-09 17:38:07,630 [194] INFO  Umbraco.Core.ApplicationContext - [P15332/T195/D4] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
-2015-10-09 17:38:11,086 [194] INFO  umbraco.content - [P15332/T195/D4] Save Xml to file...
-2015-10-09 17:38:11,101 [194] INFO  umbraco.content - [P15332/T195/D4] Saved Xml to file.
-2015-10-09 17:39:07,685 [194] INFO  umbraco.BusinessLogic.Log - [P15332/T195/D4] Log scrubbed.  Removed all items older than 2015-08-10 17:39:07
+2017-02-21 16:44:12,546 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [P20772/T1/D2] An unhandled exception occurred
+System.TimeoutException: Failed to enter the lock within timeout.
+   at Umbraco.Core.AsyncLock.Lock(Int32 millisecondsTimeout)
+   at Umbraco.Core.MainDom.Acquire()
+   at Umbraco.Core.ApplicationContext.Init()
+   at Umbraco.Core.ApplicationContext..ctor(DatabaseContext dbContext, ServiceContext serviceContext, CacheHelper cache)
+   at Umbraco.Core.CoreBootManager.CreateApplicationContext(DatabaseContext dbContext, ServiceContext serviceContext)
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2017-02-21 16:44:52,650 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [P20772/T1/D2] Application shutdown. Reason: InitializationError
+2017-02-21 16:46:00,443 [10] INFO  Umbraco.Core.CoreBootManager - [P20772/T1/D3] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 16:47:30,483 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [P20772/T1/D3] An unhandled exception occurred
+System.TimeoutException: Failed to enter the lock within timeout.
+   at Umbraco.Core.AsyncLock.Lock(Int32 millisecondsTimeout)
+   at Umbraco.Core.MainDom.Acquire()
+   at Umbraco.Core.ApplicationContext.Init()
+   at Umbraco.Core.ApplicationContext..ctor(DatabaseContext dbContext, ServiceContext serviceContext, CacheHelper cache)
+   at Umbraco.Core.CoreBootManager.CreateApplicationContext(DatabaseContext dbContext, ServiceContext serviceContext)
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2017-02-21 16:49:12,205 [7] INFO  Umbraco.Core.CoreBootManager - [P8460/T1/D2] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 16:49:12,303 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Determining hash of code files on disk
+2017-02-21 16:49:12,324 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Hash determined (took 19ms)
+2017-02-21 16:49:12,343 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 16:49:12,741 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 396ms)
+2017-02-21 16:49:12,851 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 16:49:12,871 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 20ms)
+2017-02-21 16:49:12,872 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 16:49:12,889 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 16ms)
+2017-02-21 16:49:12,907 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 16:49:12,923 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 15ms)
+2017-02-21 16:49:12,924 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 16:49:12,943 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 19ms)
+2017-02-21 16:49:12,989 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 16:49:13,012 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 23ms)
+2017-02-21 16:49:13,013 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 16:49:13,030 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 17ms)
+2017-02-21 16:49:13,872 [7] INFO  Umbraco.Core.DatabaseContext - [P8460/T1/D2] CanConnect = True
+2017-02-21 16:49:13,884 [7] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P8460/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 16:49:13,907 [7] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T1/D2] Initializing Examine and binding to business logic events
+2017-02-21 16:49:14,017 [7] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T1/D2] Adding examine event handlers for index providers: 3
+2017-02-21 16:49:14,048 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 16:49:14,376 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 16:49:14,578 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-02-21 16:49:14,601 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 23ms)
+2017-02-21 16:49:14,895 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 16:49:15,356 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 16:49:15,619 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Templates (1568ms)
+2017-02-21 16:49:15,687 [7] INFO  jumps.umbraco.usync.SyncStylesheet - [P8460/T1/D2] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 16:49:15,698 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Stylesheets (77ms)
+2017-02-21 16:49:15,955 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed data types (256ms)
+2017-02-21 16:49:15,972 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 16:49:15,985 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 13ms)
+2017-02-21 16:49:16,744 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Doctypes [10](788ms)
+2017-02-21 16:49:16,746 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Macros (0ms)
+2017-02-21 16:49:17,679 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Media types (932ms)
+2017-02-21 16:49:17,698 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Languages (17ms)
+2017-02-21 16:49:17,700 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Dictionary items (1ms)
+2017-02-21 16:49:18,076 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Processed Member types (376ms)
+2017-02-21 16:49:18,080 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] Attaching MemberTypes events
+2017-02-21 16:49:18,080 [7] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D2] uSync Initialized (4031ms)
+2017-02-21 16:49:18,081 [7] INFO  jumoo.usync.content.ContentSync - [P8460/T1/D2] Initalizing uSync Content Edition
+2017-02-21 16:49:18,092 [7] INFO  jumoo.usync.content.ContentSync - [P8460/T1/D2] Creating Source xml
+2017-02-21 16:49:18,094 [7] INFO  jumoo.usync.content.ContentExporter - [P8460/T1/D2] Content Walk Started
+2017-02-21 16:49:18,178 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 16:49:18,198 [7] INFO  Umbraco.Core.PluginManager - [P8460/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 20ms)
+2017-02-21 16:49:18,601 [7] INFO  jumoo.usync.content.ContentExporter - [P8460/T1/D2] Content Walk Completed [506.7756 milliseconds]
+2017-02-21 16:49:18,602 [7] INFO  jumoo.usync.content.MediaExporter - [P8460/T1/D2] Exporting Content
+2017-02-21 16:49:18,638 [7] INFO  jumoo.usync.content.MediaExporter - [P8460/T1/D2] Media Export Complete [0.035138 Seconds]
+2017-02-21 16:49:18,640 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] ## Import Starting
+2017-02-21 16:49:18,676 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Blog Extras no change
+2017-02-21 16:49:18,701 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Authors no change
+2017-02-21 16:49:18,729 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] John Smith no change
+2017-02-21 16:49:18,746 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Categories no change
+2017-02-21 16:49:18,762 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Business no change
+2017-02-21 16:49:18,783 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Information Tech no change
+2017-02-21 16:49:18,798 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Home no change
+2017-02-21 16:49:18,815 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Blog no change
+2017-02-21 16:49:18,844 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] My First Post no change
+2017-02-21 16:49:18,875 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] My Second Post no change
+2017-02-21 16:49:18,886 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] ## Import Complete [0.2457712 Seconds]
+2017-02-21 16:49:18,886 [7] INFO  jumoo.usync.content.MediaImporter - [P8460/T1/D2] >> Media Import starting
+2017-02-21 16:49:18,891 [7] INFO  jumoo.usync.content.MediaImporter - [P8460/T1/D2] << Media Import complete [0.0044952 seconds]
+2017-02-21 16:49:18,893 [7] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D2] Mapping Ids on 0 changed nodes
+2017-02-21 16:49:18,893 [7] INFO  jumoo.usync.content.ContentEvents - [P8460/T1/D2] Attaching to Save/Delete events
+2017-02-21 16:49:18,894 [7] INFO  jumoo.usync.content.MediaEvents - [P8460/T1/D2] attaching to media events
+2017-02-21 16:49:18,894 [7] INFO  jumoo.usync.content.ContentSync - [P8460/T1/D2] uSync Content Edition Initilized [0.8128756 seconds]
+2017-02-21 16:49:18,894 [7] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P8460/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 16:49:18,962 [7] INFO  Umbraco.Core.CoreBootManager - [P8460/T1/D2] Umbraco application startup complete (took 6732ms)
+2017-02-21 16:49:19,259 [7] INFO  umbraco.content - [P8460/T1/D2] Load Xml from file...
+2017-02-21 16:49:19,260 [7] WARN  umbraco.content - [P8460/T1/D2] Failed to load Xml, file does not exist.
+2017-02-21 16:49:19,267 [7] INFO  umbraco.content - [P8460/T1/D2] Loading content from database...
+2017-02-21 16:49:19,332 [7] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P8460/T1/D2] Building index...
+2017-02-21 16:49:20,367 [7] INFO  Umbraco.Core.ApplicationContext - [P8460/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 16:49:23,324 [7] INFO  umbraco.content - [P8460/T1/D2] Save Xml to file...
+2017-02-21 16:49:23,358 [7] INFO  umbraco.content - [P8460/T1/D2] Saved Xml to file.
+2017-02-21 16:49:32,661 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [P8460/T1/D2] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Encountered end tag "li" with no matching start tag.  Are your start/end tags properly balanced?
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData, Func`3 contextualKeyBuilder)
+   at ASP._Page_Views_BlogPage_cshtml.Execute() in c:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\Views\BlogPage.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 16:50:22,435 [7] INFO  umbraco.BusinessLogic.Log - [P8460/T1/D2] Log scrubbed.  Removed all items older than 2016-12-23 16:50:22
+2017-02-21 16:51:56,153 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [LogScrubber] Terminating
+2017-02-21 16:51:56,153 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [LogScrubber] Waiting for tasks to complete
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [LogScrubber] Tasks completed, terminated
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledTasks] Terminating
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledPublishing] Terminating
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2017-02-21 16:51:56,154 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2017-02-21 16:51:58,190 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [KeepAlive] Terminating
+2017-02-21 16:51:58,190 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [KeepAlive] Waiting for tasks to complete
+2017-02-21 16:51:58,191 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T1/D2] [KeepAlive] Tasks completed, terminated
+2017-02-21 16:52:01,681 [34] INFO  Umbraco.Core.CoreBootManager - [P8460/T32/D3] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 16:52:01,727 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Determining hash of code files on disk
+2017-02-21 16:52:01,734 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Hash determined (took 6ms)
+2017-02-21 16:52:01,749 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 16:52:01,995 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 245ms)
+2017-02-21 16:52:02,061 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 16:52:02,074 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 13ms)
+2017-02-21 16:52:02,075 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 16:52:02,101 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 25ms)
+2017-02-21 16:52:02,120 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 16:52:02,137 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 16ms)
+2017-02-21 16:52:02,137 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 16:52:02,155 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 18ms)
+2017-02-21 16:52:02,193 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 16:52:02,207 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 13ms)
+2017-02-21 16:52:02,207 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 16:52:02,219 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 11ms)
+2017-02-21 16:52:02,773 [34] INFO  Umbraco.Core.DatabaseContext - [P8460/T32/D3] CanConnect = True
+2017-02-21 16:52:02,797 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 16:52:02,816 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 18ms)
+2017-02-21 16:52:03,343 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 16:52:03,362 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 18ms)
+2017-02-21 16:52:03,605 [34] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P8460/T32/D3] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 16:52:03,621 [34] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T32/D3] Initializing Examine and binding to business logic events
+2017-02-21 16:52:03,673 [34] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T32/D3] Adding examine event handlers for index providers: 3
+2017-02-21 16:52:03,686 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 16:52:03,711 [34] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T32/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 16:52:03,746 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-02-21 16:52:03,784 [34] INFO  Umbraco.Core.PluginManager - [P8460/T32/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 38ms)
+2017-02-21 16:52:03,845 [34] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T32/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 16:52:03,871 [34] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T32/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 16:52:03,888 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Templates (198ms)
+2017-02-21 16:52:03,912 [34] INFO  jumps.umbraco.usync.SyncStylesheet - [P8460/T32/D3] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 16:52:03,924 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Stylesheets (34ms)
+2017-02-21 16:52:03,997 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed data types (72ms)
+2017-02-21 16:52:04,203 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Doctypes [10](204ms)
+2017-02-21 16:52:04,205 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Macros (1ms)
+2017-02-21 16:52:04,977 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Media types (771ms)
+2017-02-21 16:52:04,993 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Languages (14ms)
+2017-02-21 16:52:04,995 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Dictionary items (1ms)
+2017-02-21 16:52:05,449 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Processed Member types (452ms)
+2017-02-21 16:52:05,453 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] Attaching MemberTypes events
+2017-02-21 16:52:05,453 [34] INFO  jumps.umbraco.usync.uSync - [P8460/T32/D3] uSync Initialized (1767ms)
+2017-02-21 16:52:05,455 [34] INFO  jumoo.usync.content.ContentSync - [P8460/T32/D3] Initalizing uSync Content Edition
+2017-02-21 16:52:05,461 [34] INFO  jumoo.usync.content.MediaExporter - [P8460/T32/D3] Exporting Content
+2017-02-21 16:52:05,497 [34] INFO  jumoo.usync.content.MediaExporter - [P8460/T32/D3] Media Export Complete [0.0362758 Seconds]
+2017-02-21 16:52:05,499 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] ## Import Starting
+2017-02-21 16:52:05,539 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Blog Extras no change
+2017-02-21 16:52:05,561 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Authors no change
+2017-02-21 16:52:05,583 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] John Smith no change
+2017-02-21 16:52:05,604 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Categories no change
+2017-02-21 16:52:05,628 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Business no change
+2017-02-21 16:52:05,640 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Information Tech no change
+2017-02-21 16:52:05,670 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Home no change
+2017-02-21 16:52:05,703 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Blog no change
+2017-02-21 16:52:05,752 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] My First Post no change
+2017-02-21 16:52:05,785 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] My Second Post no change
+2017-02-21 16:52:05,795 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] ## Import Complete [0.2958179 Seconds]
+2017-02-21 16:52:05,796 [34] INFO  jumoo.usync.content.MediaImporter - [P8460/T32/D3] >> Media Import starting
+2017-02-21 16:52:05,802 [34] INFO  jumoo.usync.content.MediaImporter - [P8460/T32/D3] << Media Import complete [0.0053099 seconds]
+2017-02-21 16:52:05,804 [34] INFO  jumoo.usync.content.ContentImporter - [P8460/T32/D3] Mapping Ids on 0 changed nodes
+2017-02-21 16:52:05,805 [34] INFO  jumoo.usync.content.ContentEvents - [P8460/T32/D3] Attaching to Save/Delete events
+2017-02-21 16:52:05,805 [34] INFO  jumoo.usync.content.MediaEvents - [P8460/T32/D3] attaching to media events
+2017-02-21 16:52:05,806 [34] INFO  jumoo.usync.content.ContentSync - [P8460/T32/D3] uSync Content Edition Initilized [0.3507619 seconds]
+2017-02-21 16:52:05,806 [34] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P8460/T32/D3] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 16:52:05,812 [34] INFO  Umbraco.Core.CoreBootManager - [P8460/T32/D3] Umbraco application startup complete (took 4111ms)
+2017-02-21 16:52:05,991 [34] INFO  Umbraco.Core.ApplicationContext - [P8460/T32/D3] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 16:52:06,029 [34] INFO  umbraco.content - [P8460/T32/D3] Load Xml from file...
+2017-02-21 16:52:06,031 [34] INFO  umbraco.content - [P8460/T32/D3] Loaded Xml from file.
+2017-02-21 16:52:06,484 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [P8460/T32/D3] An unhandled exception occurred
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BlogMomentum.Controllers.BlogListingController.BlogListing(BlogListing model) in C:\_data\Git\Blog-Momentum Final\Blog Momentum\Blog Momentum\Controlers\BlogListingController.cs:line 61
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 16:52:28,233 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [P8460/T1/D2] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2017-02-21 16:53:07,749 [34] INFO  umbraco.BusinessLogic.Log - [P8460/T32/D3] Log scrubbed.  Removed all items older than 2016-12-23 16:53:07
+2017-02-21 17:07:09,555 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [P8460/T32/D3] An unhandled exception occurred
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BlogMomentum.Controllers.BlogListingController.BlogListing(BlogListing model) in C:\_data\Git\Blog-Momentum Final\Blog Momentum\Blog Momentum\Controlers\BlogListingController.cs:line 61
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 17:07:14,164 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [P8460/T32/D3] An unhandled exception occurred
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BlogMomentum.Controllers.BlogListingController.BlogListing(BlogListing model) in C:\_data\Git\Blog-Momentum Final\Blog Momentum\Blog Momentum\Controlers\BlogListingController.cs:line 61
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 17:07:17,787 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [LogScrubber] Terminating
+2017-02-21 17:07:17,787 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [LogScrubber] Waiting for tasks to complete
+2017-02-21 17:07:17,788 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledPublishing] Terminating
+2017-02-21 17:07:17,788 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledPublishing] Waiting for tasks to complete
+2017-02-21 17:07:17,791 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [LogScrubber] Tasks completed, terminated
+2017-02-21 17:07:17,791 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledPublishing] Tasks completed, terminated
+2017-02-21 17:07:17,792 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [KeepAlive] Terminating
+2017-02-21 17:07:17,792 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [KeepAlive] Waiting for tasks to complete
+2017-02-21 17:07:17,792 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [KeepAlive] Tasks completed, terminated
+2017-02-21 17:07:19,855 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledTasks] Terminating
+2017-02-21 17:07:19,855 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledTasks] Waiting for tasks to complete
+2017-02-21 17:07:19,856 [34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P8460/T32/D3] [ScheduledTasks] Tasks completed, terminated
+2017-02-21 17:07:24,511 [58] INFO  Umbraco.Core.CoreBootManager - [P8460/T1/D4] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:07:24,557 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Determining hash of code files on disk
+2017-02-21 17:07:24,565 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Hash determined (took 7ms)
+2017-02-21 17:07:24,583 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:07:24,950 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 366ms)
+2017-02-21 17:07:25,031 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:07:25,044 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+2017-02-21 17:07:25,044 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:07:25,059 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 15ms)
+2017-02-21 17:07:25,075 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:07:25,090 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 14ms)
+2017-02-21 17:07:25,091 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:07:25,107 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 16ms)
+2017-02-21 17:07:25,147 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:07:25,158 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 11ms)
+2017-02-21 17:07:25,158 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:07:25,174 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2017-02-21 17:07:25,920 [58] INFO  Umbraco.Core.DatabaseContext - [P8460/T1/D4] CanConnect = True
+2017-02-21 17:07:25,932 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:07:26,110 [58] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D4] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:07:26,183 [58] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D4] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:07:26,227 [58] INFO  jumps.umbraco.usync.SyncTemplate - [P8460/T1/D4] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:07:26,249 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Templates (313ms)
+2017-02-21 17:07:26,316 [58] INFO  jumps.umbraco.usync.SyncStylesheet - [P8460/T1/D4] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:07:26,332 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Stylesheets (82ms)
+2017-02-21 17:07:26,439 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed data types (106ms)
+2017-02-21 17:07:26,451 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:07:26,463 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 12ms)
+2017-02-21 17:07:27,007 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Doctypes [10](566ms)
+2017-02-21 17:07:27,008 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Macros (0ms)
+2017-02-21 17:07:27,859 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Media types (849ms)
+2017-02-21 17:07:27,900 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Languages (40ms)
+2017-02-21 17:07:27,902 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Dictionary items (1ms)
+2017-02-21 17:07:28,287 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Processed Member types (383ms)
+2017-02-21 17:07:28,295 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] Attaching MemberTypes events
+2017-02-21 17:07:28,296 [58] INFO  jumps.umbraco.usync.uSync - [P8460/T1/D4] uSync Initialized (2363ms)
+2017-02-21 17:07:28,298 [58] INFO  jumoo.usync.content.ContentSync - [P8460/T1/D4] Initalizing uSync Content Edition
+2017-02-21 17:07:28,305 [58] INFO  jumoo.usync.content.MediaExporter - [P8460/T1/D4] Exporting Content
+2017-02-21 17:07:28,354 [58] INFO  jumoo.usync.content.MediaExporter - [P8460/T1/D4] Media Export Complete [0.0482785 Seconds]
+2017-02-21 17:07:28,356 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] ## Import Starting
+2017-02-21 17:07:28,435 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Blog Extras no change
+2017-02-21 17:07:28,461 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Authors no change
+2017-02-21 17:07:28,492 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:07:28,516 [58] INFO  Umbraco.Core.PluginManager - [P8460/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 23ms)
+2017-02-21 17:07:28,708 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] John Smith no change
+2017-02-21 17:07:28,737 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Categories no change
+2017-02-21 17:07:28,771 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Business no change
+2017-02-21 17:07:28,788 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Information Tech no change
+2017-02-21 17:07:28,831 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Home no change
+2017-02-21 17:07:28,882 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Blog no change
+2017-02-21 17:07:28,946 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] My First Post no change
+2017-02-21 17:07:28,980 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] My Second Post no change
+2017-02-21 17:07:28,986 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] ## Import Complete [0.6299955 Seconds]
+2017-02-21 17:07:28,987 [58] INFO  jumoo.usync.content.MediaImporter - [P8460/T1/D4] >> Media Import starting
+2017-02-21 17:07:28,995 [58] INFO  jumoo.usync.content.MediaImporter - [P8460/T1/D4] << Media Import complete [0.0066562 seconds]
+2017-02-21 17:07:28,997 [58] INFO  jumoo.usync.content.ContentImporter - [P8460/T1/D4] Mapping Ids on 0 changed nodes
+2017-02-21 17:07:28,998 [58] INFO  jumoo.usync.content.ContentEvents - [P8460/T1/D4] Attaching to Save/Delete events
+2017-02-21 17:07:28,999 [58] INFO  jumoo.usync.content.MediaEvents - [P8460/T1/D4] attaching to media events
+2017-02-21 17:07:29,000 [58] INFO  jumoo.usync.content.ContentSync - [P8460/T1/D4] uSync Content Edition Initilized [0.702048 seconds]
+2017-02-21 17:07:29,008 [58] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P8460/T1/D4] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:07:29,023 [58] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T1/D4] Initializing Examine and binding to business logic events
+2017-02-21 17:07:29,077 [58] INFO  Umbraco.Web.Search.ExamineEvents - [P8460/T1/D4] Adding examine event handlers for index providers: 3
+2017-02-21 17:07:29,145 [58] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P8460/T1/D4] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:07:29,152 [58] INFO  Umbraco.Core.CoreBootManager - [P8460/T1/D4] Umbraco application startup complete (took 4623ms)
+2017-02-21 17:07:29,416 [58] INFO  Umbraco.Core.ApplicationContext - [P8460/T1/D4] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:07:29,475 [58] INFO  umbraco.content - [P8460/T1/D4] Load Xml from file...
+2017-02-21 17:07:29,476 [58] INFO  umbraco.content - [P8460/T1/D4] Loaded Xml from file.
+2017-02-21 17:07:49,900 [34] INFO  Umbraco.Core.UmbracoApplicationBase - [P8460/T32/D3] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2017-02-21 17:08:33,142 [58] INFO  umbraco.BusinessLogic.Log - [P8460/T1/D4] Log scrubbed.  Removed all items older than 2016-12-23 17:08:33
+2017-02-21 17:10:20,156 [11] INFO  Umbraco.Core.CoreBootManager - [P25424/T1/D2] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:10:20,213 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Determining hash of code files on disk
+2017-02-21 17:10:20,222 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Hash determined (took 7ms)
+2017-02-21 17:10:20,229 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:10:20,249 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 19ms)
+2017-02-21 17:10:20,396 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:10:20,400 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2017-02-21 17:10:20,401 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:10:20,403 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 2ms)
+2017-02-21 17:10:20,431 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:10:20,433 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2017-02-21 17:10:20,433 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:10:20,439 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 5ms)
+2017-02-21 17:10:20,495 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:10:20,496 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2017-02-21 17:10:20,496 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:10:20,497 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2017-02-21 17:10:21,315 [11] INFO  Umbraco.Core.DatabaseContext - [P25424/T1/D2] CanConnect = True
+2017-02-21 17:10:21,327 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:10:21,652 [11] INFO  jumps.umbraco.usync.SyncTemplate - [P25424/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:10:22,053 [11] INFO  jumps.umbraco.usync.SyncTemplate - [P25424/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:10:22,411 [11] INFO  jumps.umbraco.usync.SyncTemplate - [P25424/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:10:22,627 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Templates (1297ms)
+2017-02-21 17:10:22,816 [11] INFO  jumps.umbraco.usync.SyncStylesheet - [P25424/T1/D2] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:10:22,829 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Stylesheets (201ms)
+2017-02-21 17:10:23,298 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed data types (467ms)
+2017-02-21 17:10:23,312 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:10:23,314 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 2ms)
+2017-02-21 17:10:25,320 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Doctypes [10](2021ms)
+2017-02-21 17:10:25,323 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Macros (1ms)
+2017-02-21 17:10:28,094 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Media types (2770ms)
+2017-02-21 17:10:28,111 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Languages (15ms)
+2017-02-21 17:10:28,114 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Dictionary items (1ms)
+2017-02-21 17:10:28,682 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Processed Member types (566ms)
+2017-02-21 17:10:28,693 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] Attaching MemberTypes events
+2017-02-21 17:10:28,694 [11] INFO  jumps.umbraco.usync.uSync - [P25424/T1/D2] uSync Initialized (7367ms)
+2017-02-21 17:10:28,697 [11] INFO  jumoo.usync.content.ContentSync - [P25424/T1/D2] Initalizing uSync Content Edition
+2017-02-21 17:10:28,706 [11] INFO  jumoo.usync.content.MediaExporter - [P25424/T1/D2] Exporting Content
+2017-02-21 17:10:28,764 [11] INFO  jumoo.usync.content.MediaExporter - [P25424/T1/D2] Media Export Complete [0.0575568 Seconds]
+2017-02-21 17:10:28,766 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] ## Import Starting
+2017-02-21 17:10:29,394 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Blog Extras no change
+2017-02-21 17:10:29,428 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Authors no change
+2017-02-21 17:10:29,926 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:10:29,931 [11] INFO  Umbraco.Core.PluginManager - [P25424/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 5ms)
+2017-02-21 17:10:30,182 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] John Smith no change
+2017-02-21 17:10:30,216 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Categories no change
+2017-02-21 17:10:30,249 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Business no change
+2017-02-21 17:10:30,268 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Information Tech no change
+2017-02-21 17:10:30,375 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Home no change
+2017-02-21 17:10:30,439 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Blog no change
+2017-02-21 17:10:30,568 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] My First Post no change
+2017-02-21 17:10:30,616 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] My Second Post no change
+2017-02-21 17:10:30,632 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] ## Import Complete [1.8661937 Seconds]
+2017-02-21 17:10:30,633 [11] INFO  jumoo.usync.content.MediaImporter - [P25424/T1/D2] >> Media Import starting
+2017-02-21 17:10:30,642 [11] INFO  jumoo.usync.content.MediaImporter - [P25424/T1/D2] << Media Import complete [0.0079961 seconds]
+2017-02-21 17:10:30,645 [11] INFO  jumoo.usync.content.ContentImporter - [P25424/T1/D2] Mapping Ids on 0 changed nodes
+2017-02-21 17:10:30,646 [11] INFO  jumoo.usync.content.ContentEvents - [P25424/T1/D2] Attaching to Save/Delete events
+2017-02-21 17:10:30,648 [11] INFO  jumoo.usync.content.MediaEvents - [P25424/T1/D2] attaching to media events
+2017-02-21 17:10:30,648 [11] INFO  jumoo.usync.content.ContentSync - [P25424/T1/D2] uSync Content Edition Initilized [1.9514737 seconds]
+2017-02-21 17:10:30,660 [11] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P25424/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:10:30,684 [11] INFO  Umbraco.Web.Search.ExamineEvents - [P25424/T1/D2] Initializing Examine and binding to business logic events
+2017-02-21 17:10:30,767 [11] INFO  Umbraco.Web.Search.ExamineEvents - [P25424/T1/D2] Adding examine event handlers for index providers: 3
+2017-02-21 17:10:30,844 [11] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P25424/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:10:30,855 [11] INFO  Umbraco.Core.CoreBootManager - [P25424/T1/D2] Umbraco application startup complete (took 10675ms)
+2017-02-21 17:10:32,844 [11] INFO  Umbraco.Core.ApplicationContext - [P25424/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:10:33,051 [11] INFO  umbraco.content - [P25424/T1/D2] Load Xml from file...
+2017-02-21 17:10:33,058 [11] INFO  umbraco.content - [P25424/T1/D2] Loaded Xml from file.
+2017-02-21 17:12:59,344 [6] INFO  Umbraco.Core.CoreBootManager - [P19600/T1/D2] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:12:59,400 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Determining hash of code files on disk
+2017-02-21 17:12:59,407 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Hash determined (took 6ms)
+2017-02-21 17:12:59,424 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:12:59,780 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 355ms)
+2017-02-21 17:12:59,860 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:12:59,869 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2017-02-21 17:12:59,869 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:12:59,879 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 9ms)
+2017-02-21 17:12:59,892 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:12:59,901 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 8ms)
+2017-02-21 17:12:59,901 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:12:59,914 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 13ms)
+2017-02-21 17:12:59,952 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:12:59,963 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 11ms)
+2017-02-21 17:12:59,964 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:12:59,976 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 12ms)
+2017-02-21 17:13:00,718 [6] INFO  Umbraco.Core.DatabaseContext - [P19600/T1/D2] CanConnect = True
+2017-02-21 17:13:00,732 [6] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P19600/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:13:00,753 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P19600/T1/D2] Initializing Examine and binding to business logic events
+2017-02-21 17:13:00,807 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P19600/T1/D2] Adding examine event handlers for index providers: 3
+2017-02-21 17:13:00,810 [6] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P19600/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:13:00,826 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:13:00,838 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 12ms)
+2017-02-21 17:13:02,545 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:13:02,561 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 16ms)
+2017-02-21 17:13:03,177 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:13:03,267 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P19600/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:13:03,437 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-02-21 17:13:03,454 [6] INFO  Umbraco.Core.PluginManager - [P19600/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 17ms)
+2017-02-21 17:13:03,780 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P19600/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:13:04,230 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P19600/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:13:04,430 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Templates (1251ms)
+2017-02-21 17:13:04,505 [6] INFO  jumps.umbraco.usync.SyncStylesheet - [P19600/T1/D2] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:13:04,515 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Stylesheets (84ms)
+2017-02-21 17:13:04,996 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed data types (479ms)
+2017-02-21 17:13:06,245 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Doctypes [10](1246ms)
+2017-02-21 17:13:06,247 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Macros (1ms)
+2017-02-21 17:13:07,835 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Media types (1586ms)
+2017-02-21 17:13:07,847 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Languages (10ms)
+2017-02-21 17:13:07,850 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Dictionary items (1ms)
+2017-02-21 17:13:08,311 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Processed Member types (461ms)
+2017-02-21 17:13:08,315 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] Attaching MemberTypes events
+2017-02-21 17:13:08,315 [6] INFO  jumps.umbraco.usync.uSync - [P19600/T1/D2] uSync Initialized (5138ms)
+2017-02-21 17:13:08,318 [6] INFO  jumoo.usync.content.ContentSync - [P19600/T1/D2] Initalizing uSync Content Edition
+2017-02-21 17:13:08,327 [6] INFO  jumoo.usync.content.MediaExporter - [P19600/T1/D2] Exporting Content
+2017-02-21 17:13:08,380 [6] INFO  jumoo.usync.content.MediaExporter - [P19600/T1/D2] Media Export Complete [0.0519407 Seconds]
+2017-02-21 17:13:08,381 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] ## Import Starting
+2017-02-21 17:13:08,422 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Blog Extras no change
+2017-02-21 17:13:08,456 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Authors no change
+2017-02-21 17:13:08,485 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] John Smith no change
+2017-02-21 17:13:08,510 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Categories no change
+2017-02-21 17:13:08,538 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Business no change
+2017-02-21 17:13:08,557 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Information Tech no change
+2017-02-21 17:13:08,595 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Home no change
+2017-02-21 17:13:08,627 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Blog no change
+2017-02-21 17:13:08,672 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] My First Post no change
+2017-02-21 17:13:08,696 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] My Second Post no change
+2017-02-21 17:13:08,701 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] ## Import Complete [0.3193101 Seconds]
+2017-02-21 17:13:08,702 [6] INFO  jumoo.usync.content.MediaImporter - [P19600/T1/D2] >> Media Import starting
+2017-02-21 17:13:08,709 [6] INFO  jumoo.usync.content.MediaImporter - [P19600/T1/D2] << Media Import complete [0.0063486 seconds]
+2017-02-21 17:13:08,711 [6] INFO  jumoo.usync.content.ContentImporter - [P19600/T1/D2] Mapping Ids on 0 changed nodes
+2017-02-21 17:13:08,712 [6] INFO  jumoo.usync.content.ContentEvents - [P19600/T1/D2] Attaching to Save/Delete events
+2017-02-21 17:13:08,712 [6] INFO  jumoo.usync.content.MediaEvents - [P19600/T1/D2] attaching to media events
+2017-02-21 17:13:08,712 [6] INFO  jumoo.usync.content.ContentSync - [P19600/T1/D2] uSync Content Edition Initilized [0.3946864 seconds]
+2017-02-21 17:13:08,718 [6] INFO  Umbraco.Core.CoreBootManager - [P19600/T1/D2] Umbraco application startup complete (took 9349ms)
+2017-02-21 17:13:09,646 [6] INFO  Umbraco.Core.ApplicationContext - [P19600/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:13:09,749 [6] INFO  umbraco.content - [P19600/T1/D2] Load Xml from file...
+2017-02-21 17:13:09,752 [6] INFO  umbraco.content - [P19600/T1/D2] Loaded Xml from file.
+2017-02-21 17:14:47,269 [6] INFO  Umbraco.Core.CoreBootManager - [P17296/T1/D2] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:14:47,336 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Determining hash of code files on disk
+2017-02-21 17:14:47,349 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Hash determined (took 11ms)
+2017-02-21 17:14:47,367 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:14:47,759 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 391ms)
+2017-02-21 17:14:47,830 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:14:47,843 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+2017-02-21 17:14:47,844 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:14:47,860 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 15ms)
+2017-02-21 17:14:47,872 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:14:47,881 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 9ms)
+2017-02-21 17:14:47,881 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:14:47,897 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 16ms)
+2017-02-21 17:14:47,940 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:14:47,949 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2017-02-21 17:14:47,949 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:14:47,960 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 10ms)
+2017-02-21 17:14:48,675 [6] INFO  Umbraco.Core.DatabaseContext - [P17296/T1/D2] CanConnect = True
+2017-02-21 17:14:48,685 [6] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P17296/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:14:48,708 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P17296/T1/D2] Initializing Examine and binding to business logic events
+2017-02-21 17:14:48,765 [6] INFO  Umbraco.Web.Search.ExamineEvents - [P17296/T1/D2] Adding examine event handlers for index providers: 3
+2017-02-21 17:14:48,767 [6] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P17296/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:14:48,781 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:14:48,801 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 19ms)
+2017-02-21 17:14:50,621 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:14:50,640 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 19ms)
+2017-02-21 17:14:51,257 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:14:51,377 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P17296/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:14:51,572 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-02-21 17:14:51,591 [6] INFO  Umbraco.Core.PluginManager - [P17296/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 18ms)
+2017-02-21 17:14:51,923 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P17296/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:14:52,327 [6] INFO  jumps.umbraco.usync.SyncTemplate - [P17296/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:14:52,534 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Templates (1274ms)
+2017-02-21 17:14:52,586 [6] INFO  jumps.umbraco.usync.SyncStylesheet - [P17296/T1/D2] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:14:52,595 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Stylesheets (60ms)
+2017-02-21 17:14:53,010 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed data types (414ms)
+2017-02-21 17:14:53,408 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Doctypes [10](396ms)
+2017-02-21 17:14:53,410 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Macros (1ms)
+2017-02-21 17:14:55,488 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Media types (2077ms)
+2017-02-21 17:14:55,504 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Languages (15ms)
+2017-02-21 17:14:55,508 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Dictionary items (2ms)
+2017-02-21 17:14:55,879 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Processed Member types (370ms)
+2017-02-21 17:14:55,882 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] Attaching MemberTypes events
+2017-02-21 17:14:55,883 [6] INFO  jumps.umbraco.usync.uSync - [P17296/T1/D2] uSync Initialized (4624ms)
+2017-02-21 17:14:55,884 [6] INFO  jumoo.usync.content.ContentSync - [P17296/T1/D2] Initalizing uSync Content Edition
+2017-02-21 17:14:55,893 [6] INFO  jumoo.usync.content.MediaExporter - [P17296/T1/D2] Exporting Content
+2017-02-21 17:14:55,938 [6] INFO  jumoo.usync.content.MediaExporter - [P17296/T1/D2] Media Export Complete [0.0450612 Seconds]
+2017-02-21 17:14:55,941 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] ## Import Starting
+2017-02-21 17:14:56,520 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Blog Extras no change
+2017-02-21 17:14:56,551 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Authors no change
+2017-02-21 17:14:56,917 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] John Smith no change
+2017-02-21 17:14:56,939 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Categories no change
+2017-02-21 17:14:56,965 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Business no change
+2017-02-21 17:14:56,983 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Information Tech no change
+2017-02-21 17:14:57,075 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Home no change
+2017-02-21 17:14:57,113 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Blog no change
+2017-02-21 17:14:57,200 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] My First Post no change
+2017-02-21 17:14:57,244 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] My Second Post no change
+2017-02-21 17:14:57,257 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] ## Import Complete [1.3164732 Seconds]
+2017-02-21 17:14:57,259 [6] INFO  jumoo.usync.content.MediaImporter - [P17296/T1/D2] >> Media Import starting
+2017-02-21 17:14:57,266 [6] INFO  jumoo.usync.content.MediaImporter - [P17296/T1/D2] << Media Import complete [0.0064215 seconds]
+2017-02-21 17:14:57,268 [6] INFO  jumoo.usync.content.ContentImporter - [P17296/T1/D2] Mapping Ids on 0 changed nodes
+2017-02-21 17:14:57,269 [6] INFO  jumoo.usync.content.ContentEvents - [P17296/T1/D2] Attaching to Save/Delete events
+2017-02-21 17:14:57,270 [6] INFO  jumoo.usync.content.MediaEvents - [P17296/T1/D2] attaching to media events
+2017-02-21 17:14:57,270 [6] INFO  jumoo.usync.content.ContentSync - [P17296/T1/D2] uSync Content Edition Initilized [1.3860762 seconds]
+2017-02-21 17:14:57,279 [6] INFO  Umbraco.Core.CoreBootManager - [P17296/T1/D2] Umbraco application startup complete (took 9987ms)
+2017-02-21 17:14:58,404 [6] INFO  Umbraco.Core.ApplicationContext - [P17296/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:14:58,517 [6] INFO  umbraco.content - [P17296/T1/D2] Load Xml from file...
+2017-02-21 17:14:58,521 [6] INFO  umbraco.content - [P17296/T1/D2] Loaded Xml from file.
+2017-02-21 17:19:31,254 [6] INFO  umbraco.BusinessLogic.Log - [P17296/T1/D2] Log scrubbed.  Removed all items older than 2016-12-23 17:19:31
+2017-02-21 17:23:14,827 [7] INFO  Umbraco.Core.CoreBootManager - [P10812/T1/D2] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:23:14,879 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Determining hash of code files on disk
+2017-02-21 17:23:14,890 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Hash determined (took 9ms)
+2017-02-21 17:23:14,907 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:23:15,199 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 291ms)
+2017-02-21 17:23:15,260 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:23:15,273 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 13ms)
+2017-02-21 17:23:15,274 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:23:15,285 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 10ms)
+2017-02-21 17:23:15,299 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:23:15,308 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 9ms)
+2017-02-21 17:23:15,308 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:23:15,321 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 13ms)
+2017-02-21 17:23:15,352 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:23:15,364 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 12ms)
+2017-02-21 17:23:15,365 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:23:15,374 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2017-02-21 17:23:15,977 [7] INFO  Umbraco.Core.DatabaseContext - [P10812/T1/D2] CanConnect = True
+2017-02-21 17:23:15,996 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:23:16,007 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 11ms)
+2017-02-21 17:23:16,907 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:23:16,926 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 18ms)
+2017-02-21 17:23:17,544 [7] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P10812/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:23:17,562 [7] INFO  Umbraco.Web.Search.ExamineEvents - [P10812/T1/D2] Initializing Examine and binding to business logic events
+2017-02-21 17:23:17,605 [7] INFO  Umbraco.Web.Search.ExamineEvents - [P10812/T1/D2] Adding examine event handlers for index providers: 3
+2017-02-21 17:23:17,615 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:23:17,701 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:23:17,897 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-02-21 17:23:17,923 [7] INFO  Umbraco.Core.PluginManager - [P10812/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 25ms)
+2017-02-21 17:23:18,308 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:23:18,684 [7] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D2] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:23:18,903 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Templates (1286ms)
+2017-02-21 17:23:18,963 [7] INFO  jumps.umbraco.usync.SyncStylesheet - [P10812/T1/D2] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:23:18,976 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Stylesheets (72ms)
+2017-02-21 17:23:19,061 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed data types (83ms)
+2017-02-21 17:23:19,212 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Doctypes [10](150ms)
+2017-02-21 17:23:19,213 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Macros (0ms)
+2017-02-21 17:23:20,253 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Media types (1039ms)
+2017-02-21 17:23:20,264 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Languages (10ms)
+2017-02-21 17:23:20,266 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Dictionary items (1ms)
+2017-02-21 17:23:20,736 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Processed Member types (469ms)
+2017-02-21 17:23:20,739 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] Attaching MemberTypes events
+2017-02-21 17:23:20,740 [7] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D2] uSync Initialized (3125ms)
+2017-02-21 17:23:20,742 [7] INFO  jumoo.usync.content.ContentSync - [P10812/T1/D2] Initalizing uSync Content Edition
+2017-02-21 17:23:20,752 [7] INFO  jumoo.usync.content.MediaExporter - [P10812/T1/D2] Exporting Content
+2017-02-21 17:23:20,800 [7] INFO  jumoo.usync.content.MediaExporter - [P10812/T1/D2] Media Export Complete [0.0466516 Seconds]
+2017-02-21 17:23:20,804 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] ## Import Starting
+2017-02-21 17:23:20,908 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Blog Extras no change
+2017-02-21 17:23:20,943 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Authors no change
+2017-02-21 17:23:21,001 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] John Smith no change
+2017-02-21 17:23:21,034 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Categories no change
+2017-02-21 17:23:21,066 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Business no change
+2017-02-21 17:23:21,082 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Information Tech no change
+2017-02-21 17:23:21,129 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Home no change
+2017-02-21 17:23:21,201 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Blog no change
+2017-02-21 17:23:21,256 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] My First Post no change
+2017-02-21 17:23:21,291 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] My Second Post no change
+2017-02-21 17:23:21,307 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] ## Import Complete [0.5021483 Seconds]
+2017-02-21 17:23:21,308 [7] INFO  jumoo.usync.content.MediaImporter - [P10812/T1/D2] >> Media Import starting
+2017-02-21 17:23:21,319 [7] INFO  jumoo.usync.content.MediaImporter - [P10812/T1/D2] << Media Import complete [0.0106514 seconds]
+2017-02-21 17:23:21,322 [7] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D2] Mapping Ids on 0 changed nodes
+2017-02-21 17:23:21,323 [7] INFO  jumoo.usync.content.ContentEvents - [P10812/T1/D2] Attaching to Save/Delete events
+2017-02-21 17:23:21,324 [7] INFO  jumoo.usync.content.MediaEvents - [P10812/T1/D2] attaching to media events
+2017-02-21 17:23:21,324 [7] INFO  jumoo.usync.content.ContentSync - [P10812/T1/D2] uSync Content Edition Initilized [0.5819421 seconds]
+2017-02-21 17:23:21,327 [7] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P10812/T1/D2] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:23:21,338 [7] INFO  Umbraco.Core.CoreBootManager - [P10812/T1/D2] Umbraco application startup complete (took 6495ms)
+2017-02-21 17:23:21,985 [7] INFO  Umbraco.Core.ApplicationContext - [P10812/T1/D2] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:23:22,077 [7] INFO  umbraco.content - [P10812/T1/D2] Load Xml from file...
+2017-02-21 17:23:22,080 [7] INFO  umbraco.content - [P10812/T1/D2] Loaded Xml from file.
+2017-02-21 17:24:25,154 [7] INFO  umbraco.BusinessLogic.Log - [P10812/T1/D2] Log scrubbed.  Removed all items older than 2016-12-23 17:24:25
+2017-02-21 17:25:24,907 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledTasks] Terminating
+2017-02-21 17:25:24,907 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2017-02-21 17:25:24,907 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [LogScrubber] Terminating
+2017-02-21 17:25:24,907 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [LogScrubber] Waiting for tasks to complete
+2017-02-21 17:25:24,910 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [LogScrubber] Tasks completed, terminated
+2017-02-21 17:25:24,910 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [KeepAlive] Terminating
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [KeepAlive] Waiting for tasks to complete
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledPublishing] Terminating
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2017-02-21 17:25:27,014 [7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D2] [KeepAlive] Tasks completed, terminated
+2017-02-21 17:25:57,106 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D2] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2017-02-21 17:29:32,592 [9] INFO  Umbraco.Core.CoreBootManager - [P10812/T1/D3] Umbraco 7.2.8 application starting on VAIO
+2017-02-21 17:29:32,636 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Determining hash of code files on disk
+2017-02-21 17:29:32,642 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Hash determined (took 5ms)
+2017-02-21 17:29:32,656 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-02-21 17:29:32,946 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 289ms)
+2017-02-21 17:29:33,012 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-02-21 17:29:33,020 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2017-02-21 17:29:33,021 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-02-21 17:29:33,036 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 15ms)
+2017-02-21 17:29:33,048 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-02-21 17:29:33,060 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 12ms)
+2017-02-21 17:29:33,060 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-02-21 17:29:33,072 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 11ms)
+2017-02-21 17:29:33,101 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-02-21 17:29:33,110 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2017-02-21 17:29:33,111 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-02-21 17:29:33,120 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2017-02-21 17:29:33,634 [9] INFO  Umbraco.Core.DatabaseContext - [P10812/T1/D3] CanConnect = True
+2017-02-21 17:29:33,646 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-02-21 17:29:33,661 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 15ms)
+2017-02-21 17:29:34,599 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-02-21 17:29:34,623 [9] INFO  Umbraco.Core.PluginManager - [P10812/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 23ms)
+2017-02-21 17:29:35,283 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-02-21 17:29:35,397 [9] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-02-21 17:29:35,765 [9] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-02-21 17:29:36,199 [9] INFO  jumps.umbraco.usync.SyncTemplate - [P10812/T1/D3] Importing template C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-02-21 17:29:36,449 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Templates (1163ms)
+2017-02-21 17:29:36,642 [9] INFO  jumps.umbraco.usync.SyncStylesheet - [P10812/T1/D3] Processing Stylesheet: C:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-02-21 17:29:36,656 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Stylesheets (206ms)
+2017-02-21 17:29:36,781 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed data types (123ms)
+2017-02-21 17:29:36,962 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Doctypes [10](180ms)
+2017-02-21 17:29:36,964 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Macros (1ms)
+2017-02-21 17:29:37,975 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Media types (1010ms)
+2017-02-21 17:29:37,992 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Languages (15ms)
+2017-02-21 17:29:37,994 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Dictionary items (1ms)
+2017-02-21 17:29:38,375 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Processed Member types (380ms)
+2017-02-21 17:29:38,384 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] Attaching MemberTypes events
+2017-02-21 17:29:38,385 [9] INFO  jumps.umbraco.usync.uSync - [P10812/T1/D3] uSync Initialized (3101ms)
+2017-02-21 17:29:38,387 [9] INFO  jumoo.usync.content.ContentSync - [P10812/T1/D3] Initalizing uSync Content Edition
+2017-02-21 17:29:38,406 [9] INFO  jumoo.usync.content.MediaExporter - [P10812/T1/D3] Exporting Content
+2017-02-21 17:29:38,478 [9] INFO  jumoo.usync.content.MediaExporter - [P10812/T1/D3] Media Export Complete [0.071862 Seconds]
+2017-02-21 17:29:38,480 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] ## Import Starting
+2017-02-21 17:29:38,586 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Blog Extras no change
+2017-02-21 17:29:38,615 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Authors no change
+2017-02-21 17:29:38,666 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] John Smith no change
+2017-02-21 17:29:38,705 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Categories no change
+2017-02-21 17:29:38,748 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Business no change
+2017-02-21 17:29:38,770 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Information Tech no change
+2017-02-21 17:29:38,838 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Home no change
+2017-02-21 17:29:38,934 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Blog no change
+2017-02-21 17:29:39,047 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] My First Post no change
+2017-02-21 17:29:39,103 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] My Second Post no change
+2017-02-21 17:29:39,123 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] ## Import Complete [0.6425899 Seconds]
+2017-02-21 17:29:39,125 [9] INFO  jumoo.usync.content.MediaImporter - [P10812/T1/D3] >> Media Import starting
+2017-02-21 17:29:39,138 [9] INFO  jumoo.usync.content.MediaImporter - [P10812/T1/D3] << Media Import complete [0.0127554 seconds]
+2017-02-21 17:29:39,140 [9] INFO  jumoo.usync.content.ContentImporter - [P10812/T1/D3] Mapping Ids on 0 changed nodes
+2017-02-21 17:29:39,141 [9] INFO  jumoo.usync.content.ContentEvents - [P10812/T1/D3] Attaching to Save/Delete events
+2017-02-21 17:29:39,142 [9] INFO  jumoo.usync.content.MediaEvents - [P10812/T1/D3] attaching to media events
+2017-02-21 17:29:39,143 [9] INFO  jumoo.usync.content.ContentSync - [P10812/T1/D3] uSync Content Edition Initilized [0.7557812 seconds]
+2017-02-21 17:29:39,150 [9] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P10812/T1/D3] Initializing Umbraco internal event handlers for cache refreshing
+2017-02-21 17:29:39,168 [9] INFO  Umbraco.Web.Search.ExamineEvents - [P10812/T1/D3] Initializing Examine and binding to business logic events
+2017-02-21 17:29:39,237 [9] INFO  Umbraco.Web.Search.ExamineEvents - [P10812/T1/D3] Adding examine event handlers for index providers: 3
+2017-02-21 17:29:39,240 [9] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P10812/T1/D3] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-02-21 17:29:39,260 [9] INFO  Umbraco.Core.CoreBootManager - [P10812/T1/D3] Umbraco application startup complete (took 6648ms)
+2017-02-21 17:29:39,636 [9] INFO  Umbraco.Core.ApplicationContext - [P10812/T1/D3] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-02-21 17:29:39,720 [9] INFO  umbraco.content - [P10812/T1/D3] Load Xml from file...
+2017-02-21 17:29:39,722 [9] INFO  umbraco.content - [P10812/T1/D3] Loaded Xml from file.
+2017-02-21 17:29:41,192 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D3] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\Views\BlogListing.cshtml(20): error CS0117: 'BlogMomentum.Models.BlogListing.PageType' does not contain a definition for 'Year'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at BlogMomentum.Controllers.BlogListingController.BlogListing(BlogListing model) in C:\_data\Git\Blog-Momentum Final\Blog Momentum\Blog Momentum\Controlers\BlogListingController.cs:line 80
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 17:30:31,447 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D3] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData, Func`3 contextualKeyBuilder)
+   at ASP._Page_Views_BlogPage_cshtml.Execute() in c:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\Views\BlogPage.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 17:32:05,708 [9] INFO  umbraco.BusinessLogic.Log - [P10812/T1/D3] Log scrubbed.  Removed all items older than 2016-12-23 17:32:05
+2017-02-21 17:36:31,852 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D3] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData, Func`3 contextualKeyBuilder)
+   at ASP._Page_Views_BlogPage_cshtml.Execute() in c:\_data\Git\Blog-Momentum Final\Blog Momentum\UmbracoWebsite\Views\BlogPage.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

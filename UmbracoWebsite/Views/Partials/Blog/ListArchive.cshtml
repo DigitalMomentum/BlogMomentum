@@ -1,0 +1,33 @@
+﻿@using BlogMomentum.Models;
+@inherits UmbracoViewPage<IPublishedContent>
+@*
+	The Model Passed is expected to be the BlogListing Doctype
+*@
+@{
+	var blogs = Model.Children.OrderBy(r => r.GetPropertyValue<DateTime>("entryDate"));
+	DateTime target = blogs.FirstOrDefault().GetPropertyValue<DateTime>("entryDate");
+	DateTime latestPost = blogs.LastOrDefault().GetPropertyValue<DateTime>("entryDate");
+	<ul class="list-unstyled">
+		@{
+			int targetYear = target.Year - 1;
+			while (target <= latestPost) {
+
+if (target.Year > targetYear) {
+			<li style="margin-bottom:5px;">
+				<a href="@(Model.Url)archive/@target.Year">@target.Year</a>
+				</li>
+				
+
+				}
+			<li style="margin-bottom:5px;">&nbsp;&nbsp;<a href="@(Model.Url)archive/@target.Year/@target.Month.ToString("00")">@target.ToString("MMMM")</a></li>
+
+
+
+				targetYear = target.Year;
+				//Add Month
+				target = target.AddMonths(1);
+			}
+		}
+
+	</ul>
+}

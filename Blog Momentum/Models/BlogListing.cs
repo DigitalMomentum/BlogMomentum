@@ -25,7 +25,7 @@ namespace BlogMomentum.Models
 			Author,
 			Category,
 			Tag,
-			Year
+			Archive
 		}
 
 		/// <summary>
@@ -71,11 +71,29 @@ namespace BlogMomentum.Models
 				case PageType.Category:
 					BlogEntries = GetPagedBlogPostsByCategory(pageKey);
 					break;
-				case PageType.Year:
-					BlogEntries = GetPagedBlogPostsByYear(int.Parse(pageKey));
+				case PageType.Archive:
+					string[] dateSplit = PageKey.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+					int? year = null;
+					int? month = null;
+					int? day = null;
+
+					if (dateSplit.Length > 0) {
+						year = int.Parse(dateSplit[0]);
+					}
+
+					if (dateSplit.Length > 1) {
+						month = int.Parse(dateSplit[1]);
+					}
+
+					if (dateSplit.Length > 2) {
+						day = int.Parse(dateSplit[2]);
+					}
+					BlogEntries = GetPagedBlogPostsByArchive(year, month, day);
 					break;
 			}
 		}
+
+
 
 
 
@@ -192,11 +210,33 @@ namespace BlogMomentum.Models
 
 		}
 
-		private IEnumerable<IPublishedContent> GetPagedBlogPostsByYear(int year) {
-			
-			return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue && r.GetPropertyValue<DateTime>("entryDate").Year == year).ToList());
 
+
+		private IEnumerable<IPublishedContent> GetPagedBlogPostsByArchive(int? year, int? month, int? day) {
+
+			if(day.HasValue && month.HasValue && year.HasValue) {
+				return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue
+				&& r.GetPropertyValue<DateTime>("entryDate").Year == year.Value
+				&& r.GetPropertyValue<DateTime>("entryDate").Month == month.Value
+				&& r.GetPropertyValue<DateTime>("entryDate").Day == day.Value
+				).ToList());
+			} else if (month.HasValue && year.HasValue) {
+				return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue
+					&& r.GetPropertyValue<DateTime>("entryDate").Year == year.Value
+					&& r.GetPropertyValue<DateTime>("entryDate").Month == month.Value
+					).ToList());
+			} else if (year.HasValue) {
+				return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue
+					&& r.GetPropertyValue<DateTime>("entryDate").Year == year.Value
+					).ToList());
+			}
+			
+			return GetPagedPosts(Content.Children.Where(r => r.GetProperty("entryDate").HasValue).ToList());
+			
+
+		
 		}
+
 
 		/// <summary>
 		/// Wwn passed all Posts, it will filter out just the ones needed for the current page

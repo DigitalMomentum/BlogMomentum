@@ -47,11 +47,18 @@ namespace BlogMomentum.Controllers {
 						type = "category";
 						model.Load(Models.BlogListing.PageType.Category, Uri.UnescapeDataString(urlSegments[i + 1]));
 							break;
-					case "year":
-						//model.BlogEntries = GetPagedBlogPostsByCategory(model, urlSegments[i + 1]);
-						//return CurrentTemplate(model);
-						type = "year";
-						model.Load(Models.BlogListing.PageType.Year, Uri.UnescapeDataString(urlSegments[i + 1]));
+					case "archive":
+
+						type = "archive";
+
+						string pageKey = "";
+
+						for(i++; i < urlSegments.Length; i++) {
+							pageKey += urlSegments[i] + "/";
+						}
+						
+						
+						model.Load(Models.BlogListing.PageType.Archive, pageKey);
 						break;
 				}
 				}

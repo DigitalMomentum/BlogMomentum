@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>4d24df27</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -400,6 +401,7 @@
     <Content Include="uSync\Template\BlogPage\BlogPost\BlogPost.config" />
     <Content Include="uSync\Template\MasterPage\MasterPage.config" />
     <Content Include="uSync\Template\MasterPage\Textpage\Textpage.config" />
+    <Content Include="Views\Partials\Blog\ListArchive.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -13,7 +13,7 @@ The Model Passed is expected to be the BlogListing Doctype
 				BlogMomentum.Models.BlogAuthor author = new BlogMomentum.Models.BlogAuthor(a.Id);
 				<li>@if (author.PhotoUrl != null) {
                     <img src="@author.PhotoUrl.Src@author.PhotoUrl.GetCropUrl("Small Thumb")" alt="@author.Name" />
-                } @author.Name</a></li>
+                } @author.Name</li>
 			}
 		}
 	</ul>
