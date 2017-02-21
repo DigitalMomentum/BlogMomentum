@@ -79,6 +79,19 @@
 		}
 
 	</article>
+	@{
+
+		var previous = Model.Content.PrecedingSibling();
+		var next = Model.Content.FollowingSibling();
+	}
+	<p class="clearfix" style="margin-top:25px;">
+		@if (previous != null) {
+		<a href="@previous.Url"><< Previous Article</a>
+		}
+		@if (next != null) {
+		<a href="@next.Url" style="float:right;">Next Article >></a>
+		}
+	</p>
 
 	@if (Model.CommentsEnabled) {
 		@Html.CachedPartial("Blog/Comments", Model, 300) @*See /Views/Partials/Blog/Comments.cshtml*@

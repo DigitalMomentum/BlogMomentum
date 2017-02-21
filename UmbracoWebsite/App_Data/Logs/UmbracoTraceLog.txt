@@ -1015,3 +1015,16 @@ System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" ch
    at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
    at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-02-21 17:43:03,734 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledTasks] Terminating
+2017-02-21 17:43:03,735 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledTasks] Waiting for tasks to complete
+2017-02-21 17:43:03,735 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [KeepAlive] Terminating
+2017-02-21 17:43:03,735 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [KeepAlive] Waiting for tasks to complete
+2017-02-21 17:43:03,735 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [LogScrubber] Terminating
+2017-02-21 17:43:03,735 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [LogScrubber] Waiting for tasks to complete
+2017-02-21 17:43:03,740 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledTasks] Tasks completed, terminated
+2017-02-21 17:43:03,741 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [KeepAlive] Tasks completed, terminated
+2017-02-21 17:43:03,741 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [LogScrubber] Tasks completed, terminated
+2017-02-21 17:43:05,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledPublishing] Terminating
+2017-02-21 17:43:05,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledPublishing] Waiting for tasks to complete
+2017-02-21 17:43:05,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledPublishing] Tasks completed, terminated
+2017-02-21 17:43:35,830 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D3] Application shutdown. Reason: ConfigurationChange
