@@ -22,8 +22,11 @@ namespace BlogMomentum.Models {
 			var umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
 			IPublishedContent authorNode = umbracoHelper.Content(NodeId);
 			Name = authorNode.Name;
-			PhotoUrl = JsonConvert.DeserializeObject<ImageCropDataSet>(authorNode.GetProperty("photo").Value.ToString());
-			Blurb = (HtmlString)authorNode.GetProperty("blurb").Value;
+			PhotoUrl = null;
+			if (authorNode.GetProperty(("photo")).Value != null){
+				PhotoUrl = JsonConvert.DeserializeObject<ImageCropDataSet>(authorNode.GetProperty("photo").Value.ToString());
+			}
+			Blurb = (authorNode.GetProperty("blurb").Value != null)? (HtmlString)authorNode.GetProperty("blurb").Value : new HtmlString("");
 			UrlName = authorNode.UrlName;
 		}
 
