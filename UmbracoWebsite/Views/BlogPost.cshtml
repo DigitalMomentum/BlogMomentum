@@ -71,9 +71,13 @@
 				<div class="author-blurb author">
 					<p class="vcard">
 						This article was written by <a href="@Model.GetAuthorUrl()" title="Posts by @Model.Author.Name" rel="author">@Model.Author.Name</a>.
-						@Model.Author.Blurb
+						@if (Model.Author.Blurb != null) {
+							@Model.Author.Blurb
+						}
 					</p>
-					<img alt='Photo of @Model.Author.Name' src='@Model.Author.PhotoUrl.Src@Model.Author.PhotoUrl.GetCropUrl("Thumbnail")' class='avatar' height='128' width='128' />
+					@if (Model.Author.PhotoUrl != null) {
+						<img alt='Photo of @Model.Author.Name' src='@Model.Author.PhotoUrl.Src@Model.Author.PhotoUrl.GetCropUrl("Thumbnail")' class='avatar' height='128' width='128' />
+				}
 				</div>
 			</aside>
 		}

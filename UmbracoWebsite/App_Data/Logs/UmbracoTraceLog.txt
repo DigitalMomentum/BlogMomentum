@@ -1028,3 +1028,178 @@ System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" ch
 2017-02-21 17:43:05,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledPublishing] Waiting for tasks to complete
 2017-02-21 17:43:05,793 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P10812/T1/D3] [ScheduledPublishing] Tasks completed, terminated
 2017-02-21 17:43:35,830 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [P10812/T1/D3] Application shutdown. Reason: ConfigurationChange
+2017-05-14 23:22:36,576 [17] INFO  Umbraco.Core.CoreBootManager - [P21848/T18/D6] Umbraco 7.2.8 application starting on DIFFUSON
+2017-05-14 23:22:36,604 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Determining hash of code files on disk
+2017-05-14 23:22:36,613 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Hash determined (took 7ms)
+2017-05-14 23:22:36,618 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-05-14 23:22:36,624 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 5ms)
+2017-05-14 23:22:36,686 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-05-14 23:22:36,687 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2017-05-14 23:22:36,687 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-05-14 23:22:36,688 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2017-05-14 23:22:36,693 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-05-14 23:22:36,695 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2017-05-14 23:22:36,695 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-05-14 23:22:36,699 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 3ms)
+2017-05-14 23:22:36,730 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-05-14 23:22:36,731 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2017-05-14 23:22:36,731 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-05-14 23:22:36,731 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2017-05-14 23:22:37,321 [17] INFO  Umbraco.Core.DatabaseContext - [P21848/T18/D6] CanConnect = True
+2017-05-14 23:22:37,333 [17] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P21848/T18/D6] Initializing Umbraco internal event handlers for cache refreshing
+2017-05-14 23:22:37,346 [17] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T18/D6] Initializing Examine and binding to business logic events
+2017-05-14 23:22:37,381 [17] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T18/D6] Adding examine event handlers for index providers: 3
+2017-05-14 23:22:37,395 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-05-14 23:22:37,533 [17] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T18/D6] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-05-14 23:22:37,566 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-05-14 23:22:37,568 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2017-05-14 23:22:37,592 [17] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T18/D6] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-05-14 23:22:37,618 [17] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T18/D6] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-05-14 23:22:37,631 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Templates (232ms)
+2017-05-14 23:22:37,665 [17] INFO  jumps.umbraco.usync.SyncStylesheet - [P21848/T18/D6] Processing Stylesheet: C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-05-14 23:22:37,676 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Stylesheets (45ms)
+2017-05-14 23:22:37,761 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed data types (84ms)
+2017-05-14 23:22:37,771 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-05-14 23:22:37,772 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2017-05-14 23:22:38,231 [17] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T18/D6] Updating DocType BlogPages
+2017-05-14 23:22:38,288 [17] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T18/D6] Updating DocType BlogListing
+2017-05-14 23:22:38,440 [17] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T18/D6] Updating DocType BlogPost
+2017-05-14 23:22:38,578 [17] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T18/D6] Updating DocType MasterPage
+2017-05-14 23:22:38,669 [17] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T18/D6] Updating DocType Textpage
+2017-05-14 23:22:39,367 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Doctypes [10](1604ms)
+2017-05-14 23:22:39,367 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Macros (0ms)
+2017-05-14 23:22:40,177 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Media types (810ms)
+2017-05-14 23:22:40,185 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Languages (7ms)
+2017-05-14 23:22:40,185 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Dictionary items (0ms)
+2017-05-14 23:22:40,567 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Processed Member types (382ms)
+2017-05-14 23:22:40,567 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] Attaching MemberTypes events
+2017-05-14 23:22:40,567 [17] INFO  jumps.umbraco.usync.uSync - [P21848/T18/D6] uSync Initialized (3172ms)
+2017-05-14 23:22:40,567 [17] INFO  jumoo.usync.content.ContentSync - [P21848/T18/D6] Initalizing uSync Content Edition
+2017-05-14 23:22:40,571 [17] INFO  jumoo.usync.content.MediaExporter - [P21848/T18/D6] Exporting Content
+2017-05-14 23:22:40,608 [17] INFO  jumoo.usync.content.MediaExporter - [P21848/T18/D6] Media Export Complete [0.036861 Seconds]
+2017-05-14 23:22:40,609 [17] INFO  jumoo.usync.content.ContentImporter - [P21848/T18/D6] ## Import Starting
+2017-05-14 23:22:40,682 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Blog Extras' with Id '0' has been published.
+2017-05-14 23:22:40,712 [17] INFO  umbraco.content - [P21848/T18/D6] Load Xml from file...
+2017-05-14 23:22:40,712 [17] INFO  umbraco.content - [P21848/T18/D6] Loaded Xml from file.
+2017-05-14 23:22:40,998 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Authors' with Id '0' has been published.
+2017-05-14 23:22:41,117 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'John Smith' with Id '0' has been published.
+2017-05-14 23:22:41,129 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-05-14 23:22:41,131 [17] INFO  Umbraco.Core.PluginManager - [P21848/T18/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 1ms)
+2017-05-14 23:22:41,220 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Categories' with Id '0' has been published.
+2017-05-14 23:22:41,301 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Business' with Id '0' has been published.
+2017-05-14 23:22:41,379 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Information Tech' with Id '0' has been published.
+2017-05-14 23:22:41,479 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Home' with Id '0' has been published.
+2017-05-14 23:22:41,578 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Blog' with Id '0' has been published.
+2017-05-14 23:22:41,738 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'My First Post' with Id '0' has been published.
+2017-05-14 23:22:41,884 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'My Second Post' with Id '0' has been published.
+2017-05-14 23:22:41,958 [17] INFO  jumoo.usync.content.ContentImporter - [P21848/T18/D6] ## Import Complete [1.3490913 Seconds]
+2017-05-14 23:22:41,959 [17] INFO  jumoo.usync.content.MediaImporter - [P21848/T18/D6] >> Media Import starting
+2017-05-14 23:22:41,964 [17] INFO  jumoo.usync.content.MediaImporter - [P21848/T18/D6] << Media Import complete [0.0058271 seconds]
+2017-05-14 23:22:41,965 [17] INFO  jumoo.usync.content.ContentImporter - [P21848/T18/D6] Mapping Ids on 10 changed nodes
+2017-05-14 23:22:41,992 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Blog Extras (1)' with Id '1082' has been published.
+2017-05-14 23:22:42,130 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Authors' with Id '1083' has been published.
+2017-05-14 23:22:42,217 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'John Smith' with Id '1084' has been published.
+2017-05-14 23:22:42,291 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Categories' with Id '1085' has been published.
+2017-05-14 23:22:42,361 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Business' with Id '1086' has been published.
+2017-05-14 23:22:42,430 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Information Tech' with Id '1087' has been published.
+2017-05-14 23:22:42,480 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Home (1)' with Id '1088' has been published.
+2017-05-14 23:22:42,542 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'Blog' with Id '1089' has been published.
+2017-05-14 23:22:42,753 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'My First Post' with Id '1090' has been published.
+2017-05-14 23:22:42,979 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P21848/T18/D6] Content 'My Second Post' with Id '1091' has been published.
+2017-05-14 23:22:43,018 [17] INFO  jumoo.usync.content.ContentEvents - [P21848/T18/D6] Attaching to Save/Delete events
+2017-05-14 23:22:43,018 [17] INFO  jumoo.usync.content.MediaEvents - [P21848/T18/D6] attaching to media events
+2017-05-14 23:22:43,018 [17] INFO  jumoo.usync.content.ContentSync - [P21848/T18/D6] uSync Content Edition Initilized [2.4507339 seconds]
+2017-05-14 23:22:43,019 [17] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P21848/T18/D6] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-05-14 23:22:43,089 [17] INFO  Umbraco.Core.CoreBootManager - [P21848/T18/D6] Umbraco application startup complete (took 6498ms)
+2017-05-14 23:22:43,543 [17] INFO  Umbraco.Core.ApplicationContext - [P21848/T18/D6] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-05-14 23:22:47,016 [17] INFO  umbraco.content - [P21848/T18/D6] Save Xml to file...
+2017-05-14 23:22:47,027 [17] INFO  umbraco.content - [P21848/T18/D6] Saved Xml to file.
+2017-05-14 23:22:57,399 [117] INFO  Umbraco.Core.UmbracoApplicationBase - [P21848/T113/D5] Application shutdown. Reason: ConfigurationChange
+2017-05-14 23:23:33,250 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledTasks] Terminating
+2017-05-14 23:23:33,250 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledTasks] Waiting for tasks to complete
+2017-05-14 23:23:33,253 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledTasks] Tasks completed, terminated
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [KeepAlive] Terminating
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [KeepAlive] Waiting for tasks to complete
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [LogScrubber] Terminating
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [LogScrubber] Waiting for tasks to complete
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledPublishing] Terminating
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [KeepAlive] Tasks completed, terminated
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledPublishing] Waiting for tasks to complete
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [LogScrubber] Tasks completed, terminated
+2017-05-14 23:23:35,401 [17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T18/D6] [ScheduledPublishing] Tasks completed, terminated
+2017-05-14 23:23:44,692 [118] INFO  Umbraco.Core.CoreBootManager - [P21848/T1/D7] Umbraco 7.2.8 application starting on DIFFUSON
+2017-05-14 23:23:44,719 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Determining hash of code files on disk
+2017-05-14 23:23:44,728 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Hash determined (took 7ms)
+2017-05-14 23:23:44,733 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-05-14 23:23:44,738 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 4ms)
+2017-05-14 23:23:44,790 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-05-14 23:23:44,790 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2017-05-14 23:23:44,791 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-05-14 23:23:44,792 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2017-05-14 23:23:44,797 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-05-14 23:23:44,798 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2017-05-14 23:23:44,798 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-05-14 23:23:44,802 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 3ms)
+2017-05-14 23:23:44,844 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-05-14 23:23:44,845 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2017-05-14 23:23:44,845 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-05-14 23:23:44,845 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2017-05-14 23:23:45,411 [118] INFO  Umbraco.Core.DatabaseContext - [P21848/T1/D7] CanConnect = True
+2017-05-14 23:23:45,425 [118] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P21848/T1/D7] Initializing Umbraco internal event handlers for cache refreshing
+2017-05-14 23:23:45,438 [118] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T1/D7] Initializing Examine and binding to business logic events
+2017-05-14 23:23:45,478 [118] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T1/D7] Adding examine event handlers for index providers: 3
+2017-05-14 23:23:45,492 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-05-14 23:23:45,629 [118] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T1/D7] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-05-14 23:23:45,658 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-05-14 23:23:45,659 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2017-05-14 23:23:45,698 [118] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T1/D7] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-05-14 23:23:45,732 [118] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T1/D7] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-05-14 23:23:45,743 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Templates (251ms)
+2017-05-14 23:23:45,774 [118] INFO  jumps.umbraco.usync.SyncStylesheet - [P21848/T1/D7] Processing Stylesheet: C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-05-14 23:23:45,783 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Stylesheets (40ms)
+2017-05-14 23:23:45,863 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed data types (79ms)
+2017-05-14 23:23:45,877 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-05-14 23:23:45,878 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2017-05-14 23:23:46,282 [118] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T1/D7] Updating DocType BlogPages
+2017-05-14 23:23:46,333 [118] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T1/D7] Updating DocType BlogListing
+2017-05-14 23:23:46,478 [118] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T1/D7] Updating DocType BlogPost
+2017-05-14 23:23:46,616 [118] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T1/D7] Updating DocType MasterPage
+2017-05-14 23:23:46,703 [118] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T1/D7] Updating DocType Textpage
+2017-05-14 23:23:47,376 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Doctypes [10](1511ms)
+2017-05-14 23:23:47,376 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Macros (0ms)
+2017-05-14 23:23:48,166 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Media types (790ms)
+2017-05-14 23:23:48,188 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Languages (21ms)
+2017-05-14 23:23:48,188 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Dictionary items (0ms)
+2017-05-14 23:23:48,737 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Processed Member types (548ms)
+2017-05-14 23:23:48,737 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] Attaching MemberTypes events
+2017-05-14 23:23:48,737 [118] INFO  jumps.umbraco.usync.uSync - [P21848/T1/D7] uSync Initialized (3245ms)
+2017-05-14 23:23:48,737 [118] INFO  jumoo.usync.content.ContentSync - [P21848/T1/D7] Initalizing uSync Content Edition
+2017-05-14 23:23:48,740 [118] INFO  jumoo.usync.content.MediaExporter - [P21848/T1/D7] Exporting Content
+2017-05-14 23:23:48,790 [118] INFO  jumoo.usync.content.MediaExporter - [P21848/T1/D7] Media Export Complete [0.049419 Seconds]
+2017-05-14 23:23:48,790 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] ## Import Starting
+2017-05-14 23:23:48,866 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Blog Extras no change
+2017-05-14 23:23:48,917 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Authors no change
+2017-05-14 23:23:48,956 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-05-14 23:23:48,958 [118] INFO  Umbraco.Core.PluginManager - [P21848/T1/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 1ms)
+2017-05-14 23:23:48,999 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] John Smith no change
+2017-05-14 23:23:49,032 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Categories no change
+2017-05-14 23:23:49,064 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Business no change
+2017-05-14 23:23:49,087 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Information Tech no change
+2017-05-14 23:23:49,148 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Home no change
+2017-05-14 23:23:49,214 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Blog no change
+2017-05-14 23:23:49,276 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] My First Post no change
+2017-05-14 23:23:49,313 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] My Second Post no change
+2017-05-14 23:23:49,323 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] ## Import Complete [0.5320013 Seconds]
+2017-05-14 23:23:49,323 [118] INFO  jumoo.usync.content.MediaImporter - [P21848/T1/D7] >> Media Import starting
+2017-05-14 23:23:49,334 [118] INFO  jumoo.usync.content.MediaImporter - [P21848/T1/D7] << Media Import complete [0.0108326 seconds]
+2017-05-14 23:23:49,334 [118] INFO  jumoo.usync.content.ContentImporter - [P21848/T1/D7] Mapping Ids on 0 changed nodes
+2017-05-14 23:23:49,335 [118] INFO  jumoo.usync.content.ContentEvents - [P21848/T1/D7] Attaching to Save/Delete events
+2017-05-14 23:23:49,335 [118] INFO  jumoo.usync.content.MediaEvents - [P21848/T1/D7] attaching to media events
+2017-05-14 23:23:49,335 [118] INFO  jumoo.usync.content.ContentSync - [P21848/T1/D7] uSync Content Edition Initilized [0.5973005 seconds]
+2017-05-14 23:23:49,335 [118] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P21848/T1/D7] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-05-14 23:23:49,414 [118] INFO  Umbraco.Core.CoreBootManager - [P21848/T1/D7] Umbraco application startup complete (took 4709ms)
+2017-05-14 23:23:49,979 [118] INFO  Umbraco.Core.ApplicationContext - [P21848/T1/D7] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-05-14 23:24:05,501 [17] INFO  Umbraco.Core.UmbracoApplicationBase - [P21848/T18/D6] Application shutdown. Reason: ConfigurationChange
+2017-05-14 23:24:50,105 [118] INFO  umbraco.BusinessLogic.Log - [P21848/T1/D7] Log scrubbed.  Removed all items older than 2017-03-15 23:24:50
+2017-05-14 23:24:50,235 [118] INFO  umbraco.content - [P21848/T1/D7] Load Xml from file...
+2017-05-14 23:24:50,236 [118] INFO  umbraco.content - [P21848/T1/D7] Loaded Xml from file.

@@ -11,5 +11,15 @@
     <info guid="8b1aaf95-2c37-4a59-8bbf-dee5f049bbf0" name="Blog" parent="1059" />
     <info guid="b51c401f-6571-4177-9dae-194fb753d559" name="My First Post" parent="1066" />
     <info guid="ee3eb3f8-02b9-4373-a289-9dfeeb4a5dd5" name="My Second Post" parent="1066" />
+    <info guid="3dd019f3-6011-43fb-a111-466dbc4b924b" name="Blog Extras (1)" parent="-1" />
+    <info guid="272adbe8-7c5f-48e2-88e4-44f1a514db2d" name="Authors" parent="1082" />
+    <info guid="66ab08de-b980-4805-a28f-7b4001cc1f3c" name="John Smith" parent="1083" />
+    <info guid="2eaa6f7b-b656-41dc-a3f4-a0b25e8e0fe8" name="Categories" parent="1082" />
+    <info guid="320a4488-7375-4ccc-bffe-fe2b9809af21" name="Business" parent="1085" />
+    <info guid="7e595b45-2f6f-4fb8-9de0-fb4b1c728d9e" name="Information Tech" parent="1085" />
+    <info guid="9b0aa4b3-7462-4211-996d-0ba78a4ea1fc" name="Home (1)" parent="-1" />
+    <info guid="10d439f7-4652-4b21-927e-f21bf73dd0df" name="Blog" parent="1088" />
+    <info guid="6840156a-ed8d-41ce-9330-25149c303127" name="My First Post" parent="1089" />
+    <info guid="5d276906-a209-4503-82e4-220aa70c6124" name="My Second Post" parent="1089" />
   </content>
 </usync.data>
