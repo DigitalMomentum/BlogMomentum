@@ -480,6 +480,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="UmbracoBookshelf\Blog Momentum\6. Blog Posts\images\" />
     <Folder Include="UmbracoBookshelf\Blog Momentum\7. Comments %28Disquis%29\" />
   </ItemGroup>

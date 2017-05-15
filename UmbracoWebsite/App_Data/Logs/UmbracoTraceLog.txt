@@ -1203,3 +1203,91 @@ System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" ch
 2017-05-14 23:24:50,105 [118] INFO  umbraco.BusinessLogic.Log - [P21848/T1/D7] Log scrubbed.  Removed all items older than 2017-03-15 23:24:50
 2017-05-14 23:24:50,235 [118] INFO  umbraco.content - [P21848/T1/D7] Load Xml from file...
 2017-05-14 23:24:50,236 [118] INFO  umbraco.content - [P21848/T1/D7] Loaded Xml from file.
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledPublishing] Terminating
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledPublishing] Waiting for tasks to complete
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledTasks] Terminating
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledTasks] Waiting for tasks to complete
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [LogScrubber] Terminating
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [LogScrubber] Waiting for tasks to complete
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [KeepAlive] Terminating
+2017-05-14 23:37:33,863 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [KeepAlive] Waiting for tasks to complete
+2017-05-14 23:37:33,864 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [KeepAlive] Tasks completed, terminated
+2017-05-14 23:37:33,864 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledPublishing] Tasks completed, terminated
+2017-05-14 23:37:33,864 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [ScheduledTasks] Tasks completed, terminated
+2017-05-14 23:37:33,864 [118] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P21848/T1/D7] [LogScrubber] Tasks completed, terminated
+2017-05-14 23:38:03,573 [116] INFO  Umbraco.Core.CoreBootManager - [P21848/T96/D8] Umbraco 7.2.8 application starting on DIFFUSON
+2017-05-14 23:38:03,624 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Determining hash of code files on disk
+2017-05-14 23:38:03,630 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Hash determined (took 5ms)
+2017-05-14 23:38:03,630 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-05-14 23:38:03,637 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 6ms)
+2017-05-14 23:38:03,704 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-05-14 23:38:03,705 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2017-05-14 23:38:03,705 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2017-05-14 23:38:03,706 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2017-05-14 23:38:03,712 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-05-14 23:38:03,713 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2017-05-14 23:38:03,713 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-05-14 23:38:03,717 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 3ms)
+2017-05-14 23:38:03,784 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-05-14 23:38:03,786 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2017-05-14 23:38:03,786 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-05-14 23:38:03,789 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2017-05-14 23:38:03,965 [118] INFO  Umbraco.Core.UmbracoApplicationBase - [P21848/T1/D7] Application shutdown. Reason: ConfigurationChange
+2017-05-14 23:38:04,664 [116] INFO  Umbraco.Core.DatabaseContext - [P21848/T96/D8] CanConnect = True
+2017-05-14 23:38:04,678 [116] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P21848/T96/D8] Initializing Umbraco internal event handlers for cache refreshing
+2017-05-14 23:38:04,695 [116] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T96/D8] Initializing Examine and binding to business logic events
+2017-05-14 23:38:04,736 [116] INFO  Umbraco.Web.Search.ExamineEvents - [P21848/T96/D8] Adding examine event handlers for index providers: 3
+2017-05-14 23:38:04,749 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2017-05-14 23:38:05,000 [116] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T96/D8] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2017-05-14 23:38:05,169 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-05-14 23:38:05,170 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2017-05-14 23:38:05,495 [116] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T96/D8] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2017-05-14 23:38:05,938 [116] INFO  jumps.umbraco.usync.SyncTemplate - [P21848/T96/D8] Importing template C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2017-05-14 23:38:06,139 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Templates (1389ms)
+2017-05-14 23:38:06,203 [116] INFO  jumps.umbraco.usync.SyncStylesheet - [P21848/T96/D8] Processing Stylesheet: C:\_data\DevGIT\DM\BlogMomentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2017-05-14 23:38:06,215 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Stylesheets (76ms)
+2017-05-14 23:38:06,302 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed data types (86ms)
+2017-05-14 23:38:06,308 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-05-14 23:38:06,309 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2017-05-14 23:38:06,953 [116] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T96/D8] Updating DocType BlogPages
+2017-05-14 23:38:07,037 [116] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T96/D8] Updating DocType BlogListing
+2017-05-14 23:38:07,230 [116] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T96/D8] Updating DocType BlogPost
+2017-05-14 23:38:07,372 [116] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T96/D8] Updating DocType MasterPage
+2017-05-14 23:38:07,467 [116] INFO  jumps.umbraco.usync.SyncDocType - [P21848/T96/D8] Updating DocType Textpage
+2017-05-14 23:38:08,243 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Doctypes [10](1939ms)
+2017-05-14 23:38:08,243 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Macros (0ms)
+2017-05-14 23:38:09,173 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Media types (929ms)
+2017-05-14 23:38:09,183 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Languages (9ms)
+2017-05-14 23:38:09,183 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Dictionary items (0ms)
+2017-05-14 23:38:09,712 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Processed Member types (529ms)
+2017-05-14 23:38:09,712 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] Attaching MemberTypes events
+2017-05-14 23:38:09,712 [116] INFO  jumps.umbraco.usync.uSync - [P21848/T96/D8] uSync Initialized (4963ms)
+2017-05-14 23:38:09,713 [116] INFO  jumoo.usync.content.ContentSync - [P21848/T96/D8] Initalizing uSync Content Edition
+2017-05-14 23:38:09,717 [116] INFO  jumoo.usync.content.MediaExporter - [P21848/T96/D8] Exporting Content
+2017-05-14 23:38:09,758 [116] INFO  jumoo.usync.content.MediaExporter - [P21848/T96/D8] Media Export Complete [0.0418168 Seconds]
+2017-05-14 23:38:09,759 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] ## Import Starting
+2017-05-14 23:38:09,863 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Blog Extras no change
+2017-05-14 23:38:09,893 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Authors no change
+2017-05-14 23:38:09,947 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2017-05-14 23:38:09,949 [116] INFO  Umbraco.Core.PluginManager - [P21848/T96/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 1ms)
+2017-05-14 23:38:10,013 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] John Smith no change
+2017-05-14 23:38:10,042 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Categories no change
+2017-05-14 23:38:10,069 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Business no change
+2017-05-14 23:38:10,083 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Information Tech no change
+2017-05-14 23:38:10,123 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Home no change
+2017-05-14 23:38:10,166 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Blog no change
+2017-05-14 23:38:10,235 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] My First Post no change
+2017-05-14 23:38:10,267 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] My Second Post no change
+2017-05-14 23:38:10,274 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] ## Import Complete [0.513834 Seconds]
+2017-05-14 23:38:10,274 [116] INFO  jumoo.usync.content.MediaImporter - [P21848/T96/D8] >> Media Import starting
+2017-05-14 23:38:10,279 [116] INFO  jumoo.usync.content.MediaImporter - [P21848/T96/D8] << Media Import complete [0.0050003 seconds]
+2017-05-14 23:38:10,279 [116] INFO  jumoo.usync.content.ContentImporter - [P21848/T96/D8] Mapping Ids on 0 changed nodes
+2017-05-14 23:38:10,279 [116] INFO  jumoo.usync.content.ContentEvents - [P21848/T96/D8] Attaching to Save/Delete events
+2017-05-14 23:38:10,279 [116] INFO  jumoo.usync.content.MediaEvents - [P21848/T96/D8] attaching to media events
+2017-05-14 23:38:10,279 [116] INFO  jumoo.usync.content.ContentSync - [P21848/T96/D8] uSync Content Edition Initilized [0.5662057 seconds]
+2017-05-14 23:38:10,280 [116] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P21848/T96/D8] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2017-05-14 23:38:10,343 [116] INFO  Umbraco.Core.CoreBootManager - [P21848/T96/D8] Umbraco application startup complete (took 6753ms)
+2017-05-14 23:38:11,023 [116] INFO  Umbraco.Core.ApplicationContext - [P21848/T96/D8] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2017-05-14 23:39:11,179 [116] INFO  umbraco.BusinessLogic.Log - [P21848/T96/D8] Log scrubbed.  Removed all items older than 2017-03-15 23:39:11
+2017-05-14 23:39:11,310 [116] INFO  umbraco.content - [P21848/T96/D8] Load Xml from file...
+2017-05-14 23:39:11,312 [116] INFO  umbraco.content - [P21848/T96/D8] Loaded Xml from file.
