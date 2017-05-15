@@ -265,7 +265,7 @@ namespace BlogMomentum.Models
 			IsFirstPage = Page <= 1;
 			IsLastPage = Page >= TotalPages;
 
-			return allPosts.OrderByDescending(x => x.CreateDate).Skip(skipItems).Take(PageSize);
+			return allPosts.OrderByDescending(x => x.GetPropertyValue<DateTime>("entryDate")).Skip(skipItems).Take(PageSize);
 		}
     }
 }
