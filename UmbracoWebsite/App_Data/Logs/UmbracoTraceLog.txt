@@ -1291,3 +1291,459 @@ System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" ch
 2017-05-14 23:39:11,179 [116] INFO  umbraco.BusinessLogic.Log - [P21848/T96/D8] Log scrubbed.  Removed all items older than 2017-03-15 23:39:11
 2017-05-14 23:39:11,310 [116] INFO  umbraco.content - [P21848/T96/D8] Load Xml from file...
 2017-05-14 23:39:11,312 [116] INFO  umbraco.content - [P21848/T96/D8] Loaded Xml from file.
+2018-07-26 19:41:50,912 [11] INFO  Umbraco.Core.CoreBootManager - [P18836/T1/D2] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 19:41:51,045 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Determining hash of code files on disk
+2018-07-26 19:41:51,056 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Hash determined (took 10ms)
+2018-07-26 19:41:51,073 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 19:41:51,497 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 422ms)
+2018-07-26 19:41:51,586 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 19:41:51,606 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 19ms)
+2018-07-26 19:41:51,606 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 19:41:51,626 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 19ms)
+2018-07-26 19:41:51,649 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 19:41:51,668 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 18ms)
+2018-07-26 19:41:51,668 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 19:41:51,686 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 17ms)
+2018-07-26 19:41:51,743 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 19:41:51,763 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 19ms)
+2018-07-26 19:41:51,763 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 19:41:51,786 [11] INFO  Umbraco.Core.PluginManager - [P18836/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 22ms)
+2018-07-26 19:41:52,730 [11] INFO  Umbraco.Core.DatabaseContext - [P18836/T1/D2] CanConnect = True
+2018-07-26 19:41:52,741 [11] INFO  jumps.umbraco.usync.uSync - [P18836/T1/D2] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2018-07-26 19:41:52,960 [11] INFO  jumps.umbraco.usync.SyncTemplate - [P18836/T1/D2] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage
+2018-07-26 19:41:53,255 [11] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [P18836/T1/D2]    at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2018-07-26 19:41:53,314 [11] ERROR Umbraco.Core.CoreBootManager - [P18836/T1/D2] An error occurred running OnApplicationStarted for handler jumps.umbraco.usync.uSync
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 19:41:53,336 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [P18836/T1/D2] An unhandled exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 19:42:04,492 [11] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P18836/T1/D2] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2018-07-26 19:42:04,994 [11] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P18836/T1/D2] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2018-07-26 19:49:39,757 [9] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D2] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 19:49:39,817 [9] INFO  Umbraco.Core.PluginManager - [P14796/T1/D2] Determining hash of code files on disk
+2018-07-26 19:49:39,852 [9] INFO  Umbraco.Core.PluginManager - [P14796/T1/D2] Hash determined (took 31ms)
+2018-07-26 19:49:39,877 [9] INFO  Umbraco.Core.PluginManager - [P14796/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 19:49:40,172 [9] INFO  Umbraco.Core.PluginManager - [P14796/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 293ms)
+2018-07-26 19:49:40,247 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D2] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Unable to open configSource file 'config\BaseRestExtensions.config'. (C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\web.config line 22)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.HttpContext.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at Umbraco.Core.Configuration.UmbracoConfig..ctor()
+   at Umbraco.Core.Configuration.UmbracoConfig.<.cctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Configuration.UmbracoConfig.get_For()
+   at Umbraco.Core.Sync.ConfigServerRegistrar..ctor()
+   at Umbraco.Core.CoreBootManager.InitializeResolvers()
+   at Umbraco.Web.WebBootManager.InitializeResolvers()
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 19:50:20,306 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D2] Application shutdown. Reason: InitializationError
+2018-07-26 19:50:36,616 [18] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D3] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 19:50:36,662 [18] INFO  Umbraco.Core.PluginManager - [P14796/T1/D3] Determining hash of code files on disk
+2018-07-26 19:50:36,670 [18] INFO  Umbraco.Core.PluginManager - [P14796/T1/D3] Hash determined (took 6ms)
+2018-07-26 19:50:36,677 [18] INFO  Umbraco.Core.PluginManager - [P14796/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 19:50:36,695 [18] INFO  Umbraco.Core.PluginManager - [P14796/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 17ms)
+2018-07-26 19:50:36,791 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D3] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Required attribute 'alias' not found. (C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\config\Dashboard.config line 23)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.HttpContext.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at Umbraco.Core.Configuration.UmbracoConfig..ctor()
+   at Umbraco.Core.Configuration.UmbracoConfig.<.cctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Configuration.UmbracoConfig.get_For()
+   at Umbraco.Core.Sync.ConfigServerRegistrar..ctor()
+   at Umbraco.Core.CoreBootManager.InitializeResolvers()
+   at Umbraco.Web.WebBootManager.InitializeResolvers()
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 19:51:07,099 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D3] Application shutdown. Reason: ConfigurationChange
+2018-07-26 20:04:21,191 [52] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D5] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:04:21,241 [52] INFO  Umbraco.Core.PluginManager - [P14796/T1/D5] Determining hash of code files on disk
+2018-07-26 20:04:21,264 [52] INFO  Umbraco.Core.PluginManager - [P14796/T1/D5] Hash determined (took 20ms)
+2018-07-26 20:04:21,311 [52] INFO  Umbraco.Core.PluginManager - [P14796/T1/D5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:04:21,600 [52] INFO  Umbraco.Core.PluginManager - [P14796/T1/D5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 288ms)
+2018-07-26 20:04:21,691 [52] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D5] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Required attribute 'alias' not found. (C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\config\Dashboard.config line 23)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.HttpContext.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   at System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at Umbraco.Core.Configuration.UmbracoConfig..ctor()
+   at Umbraco.Core.Configuration.UmbracoConfig.<.cctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Configuration.UmbracoConfig.get_For()
+   at Umbraco.Core.Sync.ConfigServerRegistrar..ctor()
+   at Umbraco.Core.CoreBootManager.InitializeResolvers()
+   at Umbraco.Web.WebBootManager.InitializeResolvers()
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:04:52,957 [60] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D6] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:04:53,006 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Determining hash of code files on disk
+2018-07-26 20:04:53,014 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Hash determined (took 7ms)
+2018-07-26 20:04:53,035 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:04:53,365 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 328ms)
+2018-07-26 20:04:53,436 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 20:04:53,454 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 17ms)
+2018-07-26 20:04:53,454 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 20:04:53,470 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 16ms)
+2018-07-26 20:04:53,487 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 20:04:53,503 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 15ms)
+2018-07-26 20:04:53,503 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 20:04:53,521 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 17ms)
+2018-07-26 20:04:53,564 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 20:04:53,583 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 18ms)
+2018-07-26 20:04:53,583 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 20:04:53,601 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 17ms)
+2018-07-26 20:04:54,542 [60] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D6] CanConnect = True
+2018-07-26 20:04:54,565 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-07-26 20:04:54,596 [60] INFO  Umbraco.Core.PluginManager - [P14796/T1/D6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 30ms)
+2018-07-26 20:04:55,052 [60] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D6] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2018-07-26 20:04:55,106 [60] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D6] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage
+2018-07-26 20:04:55,319 [60] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [P14796/T1/D6]    at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2018-07-26 20:04:55,339 [60] ERROR Umbraco.Core.CoreBootManager - [P14796/T1/D6] An error occurred running OnApplicationStarted for handler jumps.umbraco.usync.uSync
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:04:55,341 [60] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D6] An unhandled exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:05:01,731 [52] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D5] Application shutdown. Reason: ConfigurationChange
+2018-07-26 20:05:06,486 [60] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D6] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2018-07-26 20:05:06,987 [60] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D6] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2018-07-26 20:05:37,562 [60] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D6] Application shutdown. Reason: InitializationError
+2018-07-26 20:08:12,586 [31] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D7] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:08:12,625 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Determining hash of code files on disk
+2018-07-26 20:08:12,633 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Hash determined (took 6ms)
+2018-07-26 20:08:12,638 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:08:12,656 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 16ms)
+2018-07-26 20:08:12,760 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 20:08:12,761 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2018-07-26 20:08:12,761 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 20:08:12,762 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2018-07-26 20:08:12,777 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 20:08:12,778 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2018-07-26 20:08:12,779 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 20:08:12,783 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 3ms)
+2018-07-26 20:08:12,822 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 20:08:12,823 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2018-07-26 20:08:12,824 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 20:08:12,824 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2018-07-26 20:08:13,583 [31] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D7] CanConnect = True
+2018-07-26 20:08:13,605 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-07-26 20:08:13,607 [31] INFO  Umbraco.Core.PluginManager - [P14796/T1/D7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2018-07-26 20:08:13,865 [31] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D7] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2018-07-26 20:08:13,907 [31] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D7] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage
+2018-07-26 20:08:14,045 [31] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [P14796/T1/D7]    at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2018-07-26 20:08:14,061 [31] ERROR Umbraco.Core.CoreBootManager - [P14796/T1/D7] An error occurred running OnApplicationStarted for handler jumps.umbraco.usync.uSync
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:08:14,062 [31] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D7] An unhandled exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:08:25,234 [31] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D7] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2018-07-26 20:08:25,735 [31] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D7] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2018-07-26 20:08:56,340 [31] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D7] Application shutdown. Reason: InitializationError
+2018-07-26 20:09:05,245 [48] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D8] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:09:05,286 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Determining hash of code files on disk
+2018-07-26 20:09:05,293 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Hash determined (took 6ms)
+2018-07-26 20:09:05,300 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:09:05,320 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 19ms)
+2018-07-26 20:09:05,420 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 20:09:05,421 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2018-07-26 20:09:05,421 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 20:09:05,422 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2018-07-26 20:09:05,436 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 20:09:05,437 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2018-07-26 20:09:05,437 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 20:09:05,442 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 4ms)
+2018-07-26 20:09:05,482 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 20:09:05,483 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2018-07-26 20:09:05,483 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 20:09:05,484 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2018-07-26 20:09:06,212 [48] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D8] CanConnect = True
+2018-07-26 20:09:06,232 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-07-26 20:09:06,234 [48] INFO  Umbraco.Core.PluginManager - [P14796/T1/D8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2018-07-26 20:09:06,503 [48] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D8] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2018-07-26 20:09:06,547 [48] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D8] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage
+2018-07-26 20:09:06,688 [48] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [P14796/T1/D8]    at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2018-07-26 20:09:06,704 [48] ERROR Umbraco.Core.CoreBootManager - [P14796/T1/D8] An error occurred running OnApplicationStarted for handler jumps.umbraco.usync.uSync
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:09:06,705 [48] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D8] An unhandled exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The column name is not valid. [ Node name (if any) = ,Column name = master ]
+   at jumps.umbraco.usync.uSync.RunSync()
+   at jumps.umbraco.usync.uSync.DoOnStart()
+   at jumps.umbraco.usync.uSync.OnApplicationStarted(UmbracoApplicationBase httpApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:09:17,834 [48] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D8] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2018-07-26 20:09:18,335 [48] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D8] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2018-07-26 20:09:32,301 [26] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D9] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:09:32,343 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Determining hash of code files on disk
+2018-07-26 20:09:32,350 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Hash determined (took 6ms)
+2018-07-26 20:09:32,367 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:09:32,657 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 288ms)
+2018-07-26 20:09:32,748 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 20:09:32,766 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 18ms)
+2018-07-26 20:09:32,767 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 20:09:32,784 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 17ms)
+2018-07-26 20:09:32,799 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 20:09:32,815 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 15ms)
+2018-07-26 20:09:32,815 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 20:09:32,835 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 19ms)
+2018-07-26 20:09:32,870 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 20:09:32,885 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2018-07-26 20:09:32,885 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 20:09:32,926 [26] INFO  Umbraco.Core.PluginManager - [P14796/T1/D9] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 40ms)
+2018-07-26 20:09:33,641 [26] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D9] CanConnect = False
+2018-07-26 20:09:34,670 [26] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D9] CanConnect = False
+2018-07-26 20:09:35,696 [26] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D9] CanConnect = False
+2018-07-26 20:09:36,722 [26] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D9] CanConnect = False
+2018-07-26 20:09:37,757 [26] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D9] CanConnect = False
+2018-07-26 20:09:38,760 [26] ERROR Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D9] An unhandled exception occurred
+Umbraco.Core.Exceptions.UmbracoStartupFailedException: Umbraco cannot start. A connection string is configured but the Umbraco cannot connect to the database.
+   at Umbraco.Core.CoreBootManager.EnsureDatabaseConnection()
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+2018-07-26 20:09:48,944 [48] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D8] Application shutdown. Reason: InitializationError
+2018-07-26 20:09:49,350 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D9] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2018-07-26 20:09:49,853 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D9] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2018-07-26 20:09:50,354 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P14796/T1/D9] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2018-07-26 20:09:51,865 [41] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D10] Umbraco 7.2.8 application starting on DIFFUSION
+2018-07-26 20:09:51,905 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Determining hash of code files on disk
+2018-07-26 20:09:51,912 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Hash determined (took 5ms)
+2018-07-26 20:09:51,918 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-26 20:09:51,933 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 41 (took 14ms)
+2018-07-26 20:09:52,012 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-26 20:09:52,013 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2018-07-26 20:09:52,013 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-07-26 20:09:52,014 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2018-07-26 20:09:52,028 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-26 20:09:52,030 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 1ms)
+2018-07-26 20:09:52,030 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-26 20:09:52,033 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 38 (took 3ms)
+2018-07-26 20:09:52,072 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-26 20:09:52,073 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2018-07-26 20:09:52,073 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-26 20:09:52,074 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2018-07-26 20:09:52,762 [41] INFO  Umbraco.Core.DatabaseContext - [P14796/T1/D10] CanConnect = True
+2018-07-26 20:09:52,776 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] uSync Starting - for detailed debug info. set priority to 'Debug' in log4net.config file
+2018-07-26 20:09:52,925 [41] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D10] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage
+2018-07-26 20:09:53,172 [41] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D10] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogListing
+2018-07-26 20:09:53,379 [41] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D10] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\BlogPage\BlogPost
+2018-07-26 20:09:53,570 [41] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D10] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\MasterPage
+2018-07-26 20:09:53,719 [41] INFO  jumps.umbraco.usync.SyncTemplate - [P14796/T1/D10] Importing template C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\Template\MasterPage\Textpage
+2018-07-26 20:09:53,871 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Templates (1092ms)
+2018-07-26 20:09:54,008 [41] INFO  jumps.umbraco.usync.SyncStylesheet - [P14796/T1/D10] Processing Stylesheet: C:\_data\Dev\DM\BlogMomentum\BlogMomentum\UmbracoWebsite\uSync\StyleSheet\BlogMomentum.config
+2018-07-26 20:09:54,054 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Stylesheets (181ms)
+2018-07-26 20:09:54,139 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-07-26 20:09:54,141 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2018-07-26 20:09:54,845 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed data types (789ms)
+2018-07-26 20:09:55,025 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogExtras
+2018-07-26 20:09:55,125 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogAuthor
+2018-07-26 20:09:55,194 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogAuthors
+2018-07-26 20:09:55,219 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogCategories
+2018-07-26 20:09:55,243 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogCategory
+2018-07-26 20:09:55,266 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogPages
+2018-07-26 20:09:55,280 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogListing
+2018-07-26 20:09:55,341 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType BlogPost
+2018-07-26 20:09:55,401 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType MasterPage
+2018-07-26 20:09:55,420 [41] INFO  jumps.umbraco.usync.SyncDocType - [P14796/T1/D10] Updating DocType Textpage
+2018-07-26 20:09:55,705 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Doctypes [10](858ms)
+2018-07-26 20:09:55,706 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Macros (1ms)
+2018-07-26 20:09:56,669 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Media types (961ms)
+2018-07-26 20:09:56,701 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Languages (31ms)
+2018-07-26 20:09:56,704 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Dictionary items (1ms)
+2018-07-26 20:09:57,459 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Processed Member types (754ms)
+2018-07-26 20:09:57,468 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] Attaching MemberTypes events
+2018-07-26 20:09:57,468 [41] INFO  jumps.umbraco.usync.uSync - [P14796/T1/D10] uSync Initialized (4692ms)
+2018-07-26 20:09:57,470 [41] INFO  jumoo.usync.content.ContentSync - [P14796/T1/D10] Initalizing uSync Content Edition
+2018-07-26 20:09:57,476 [41] INFO  jumoo.usync.content.ContentSync - [P14796/T1/D10] Creating Source xml
+2018-07-26 20:09:57,478 [41] INFO  jumoo.usync.content.ContentExporter - [P14796/T1/D10] Content Walk Started
+2018-07-26 20:09:57,517 [41] INFO  jumoo.usync.content.ContentExporter - [P14796/T1/D10] Content Walk Completed [38.2437 milliseconds]
+2018-07-26 20:09:57,518 [41] INFO  jumoo.usync.content.MediaExporter - [P14796/T1/D10] Exporting Content
+2018-07-26 20:09:57,558 [41] INFO  jumoo.usync.content.MediaExporter - [P14796/T1/D10] Media Export Complete [0.0404562 Seconds]
+2018-07-26 20:09:57,560 [41] INFO  jumoo.usync.content.ContentImporter - [P14796/T1/D10] ## Import Starting
+2018-07-26 20:09:57,630 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Blog Extras' with Id '0' has been published.
+2018-07-26 20:09:57,886 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Authors' with Id '0' has been published.
+2018-07-26 20:09:58,031 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'John Smith' with Id '0' has been published.
+2018-07-26 20:09:58,050 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2018-07-26 20:09:58,294 [41] INFO  Umbraco.Core.PluginManager - [P14796/T1/D10] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 244ms)
+2018-07-26 20:09:58,547 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Categories' with Id '0' has been published.
+2018-07-26 20:09:58,615 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Business' with Id '0' has been published.
+2018-07-26 20:09:58,660 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Information Tech' with Id '0' has been published.
+2018-07-26 20:09:58,727 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Home' with Id '0' has been published.
+2018-07-26 20:09:58,804 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Blog' with Id '0' has been published.
+2018-07-26 20:09:58,917 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'My First Post' with Id '0' has been published.
+2018-07-26 20:09:59,024 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'My Second Post' with Id '0' has been published.
+2018-07-26 20:09:59,067 [41] INFO  jumoo.usync.content.ContentImporter - [P14796/T1/D10] ## Import Complete [1.5061961 Seconds]
+2018-07-26 20:09:59,068 [41] INFO  jumoo.usync.content.MediaImporter - [P14796/T1/D10] >> Media Import starting
+2018-07-26 20:09:59,076 [41] INFO  jumoo.usync.content.MediaImporter - [P14796/T1/D10] << Media Import complete [0.0078716 seconds]
+2018-07-26 20:09:59,079 [41] INFO  jumoo.usync.content.ContentImporter - [P14796/T1/D10] Mapping Ids on 10 changed nodes
+2018-07-26 20:09:59,100 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Blog Extras' with Id '1072' has been published.
+2018-07-26 20:09:59,145 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Authors' with Id '1073' has been published.
+2018-07-26 20:09:59,183 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'John Smith' with Id '1074' has been published.
+2018-07-26 20:09:59,216 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Categories' with Id '1075' has been published.
+2018-07-26 20:09:59,255 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Business' with Id '1076' has been published.
+2018-07-26 20:09:59,298 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Information Tech' with Id '1077' has been published.
+2018-07-26 20:09:59,330 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Home' with Id '1078' has been published.
+2018-07-26 20:09:59,377 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'Blog' with Id '1079' has been published.
+2018-07-26 20:09:59,488 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'My First Post' with Id '1080' has been published.
+2018-07-26 20:09:59,601 [41] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P14796/T1/D10] Content 'My Second Post' with Id '1081' has been published.
+2018-07-26 20:09:59,620 [41] INFO  jumoo.usync.content.ContentEvents - [P14796/T1/D10] Attaching to Save/Delete events
+2018-07-26 20:09:59,621 [41] INFO  jumoo.usync.content.MediaEvents - [P14796/T1/D10] attaching to media events
+2018-07-26 20:09:59,622 [41] INFO  jumoo.usync.content.ContentSync - [P14796/T1/D10] uSync Content Edition Initilized [2.1514173 seconds]
+2018-07-26 20:09:59,623 [41] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P14796/T1/D10] UmbracoBookshelf.Examine.BookshelfExamineDataService
+2018-07-26 20:09:59,715 [41] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P14796/T1/D10] Initializing Umbraco internal event handlers for cache refreshing
+2018-07-26 20:09:59,729 [41] INFO  Umbraco.Web.Search.ExamineEvents - [P14796/T1/D10] Initializing Examine and binding to business logic events
+2018-07-26 20:09:59,785 [41] INFO  Umbraco.Web.Search.ExamineEvents - [P14796/T1/D10] Adding examine event handlers for index providers: 3
+2018-07-26 20:09:59,794 [41] INFO  Umbraco.Core.CoreBootManager - [P14796/T1/D10] Umbraco application startup complete (took 7910ms)
+2018-07-26 20:10:00,071 [41] INFO  umbraco.content - [P14796/T1/D10] Load Xml from file...
+2018-07-26 20:10:00,073 [41] WARN  umbraco.content - [P14796/T1/D10] Failed to load Xml, file does not exist.
+2018-07-26 20:10:00,076 [41] INFO  umbraco.content - [P14796/T1/D10] Loading content from database...
+2018-07-26 20:10:00,121 [41] INFO  UmbracoBookshelf.Examine.BookshelfExamineDataService - [P14796/T1/D10] Building index...
+2018-07-26 20:10:00,564 [41] INFO  Umbraco.Core.ApplicationContext - [P14796/T1/D10] ApplicationUrl: http://localhost:50078/umbraco (UmbracoModule request)
+2018-07-26 20:10:04,108 [41] INFO  umbraco.content - [P14796/T1/D10] Save Xml to file...
+2018-07-26 20:10:04,125 [41] INFO  umbraco.content - [P14796/T1/D10] Saved Xml to file.
+2018-07-26 20:10:20,903 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [P14796/T1/D9] Application shutdown. Reason: InitializationError
