@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BlogListing guid="8b1aaf95-2c37-4a59-8bbf-dee5f049bbf0" id="1066" nodeName="Blog" isDoc="" updated="2015-09-12T23:43:39.557Z" parentGUID="b11aa9a9-c76f-46cc-a8cc-f1e709f948bb" nodeTypeAlias="BlogListing" templateAlias="BlogListing" sortOrder="0" published="true">
-  <openingContent><![CDATA[<p>This is my Blog</p>]]></openingContent>
-  <enableShareIcons>1</enableShareIcons>
-  <twitterUsername><![CDATA[digitalmomentum]]></twitterUsername>
-  <postsPerPage><![CDATA[10]]></postsPerPage>
-  <commentsEnabled>1</commentsEnabled>
-  <disqusShortname><![CDATA[digitalmomentum]]></disqusShortname>
-</BlogListing>
