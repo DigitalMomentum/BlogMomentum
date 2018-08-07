@@ -193,7 +193,10 @@ namespace BlogMomentum.Models
 			category = category.ToLower();
 			var categoryrNode = uQuery.GetNodesByType("BlogCategory").Where(r => r.UrlName.ToLower() == category).FirstOrDefault();
 			if (categoryrNode != null) {
-				return GetPagedPosts(Content.Children.Where(r => r.GetProperty("categories").HasValue && r.GetProperty("categories").Value.ToString().ToLower().Contains(categoryrNode.Id.ToString())).ToList());
+                //WARNING: This is a horribly inefficient way to find the posts that reference the category! Dont know how else to do it. 
+                var umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
+                var cat = umbracoHelper.TypedContent(categoryrNode.Id) ;
+                return GetPagedPosts(Content.Children.Where(r => r.GetProperty("categories").HasValue && r.GetPropertyValue<IEnumerable<IPublishedContent>>("categories").Contains(cat)).ToList());
 			}
 			return new List<IPublishedContent>().AsEnumerable();
 		}
