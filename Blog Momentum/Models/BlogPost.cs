@@ -22,8 +22,9 @@ namespace BlogMomentum.Models {
 			BlogRoot = Content.Parent;
 			EntryDate = (Content.HasValue("entryDate")) ? DateTime.Parse(Content.GetPropertyValue<string>("entryDate")) : Content.CreateDate;
 			BlogContent = Content.GetPropertyValue<HtmlString>("content");
-			Categories = (Content.HasValue("categories")) ? umbracoHelper.Content(Content.GetPropertyValue<string>("categories").Split(',')) : new List<IPublishedContent>().AsEnumerable();
-			Tags = (Content.HasValue("tags")) ? Content.GetPropertyValue<string>("tags").Split(',') : new string[0];
+            //Categories = (Content.HasValue("categories")) ? umbracoHelper.Content(Content.GetPropertyValue<string>("categories").Split(',')) : new List<IPublishedContent>().AsEnumerable();
+            Categories = (Content.HasValue("categories")) ? Content.GetPropertyValue<IEnumerable<IPublishedContent>>("categories") : new List<IPublishedContent>().AsEnumerable();
+            Tags = (Content.HasValue("tags")) ? Content.GetPropertyValue<string>("tags").Split(',') : new string[0];
 			MainImage = (Content.HasValue("mainImage")) ? JsonConvert.DeserializeObject<ImageCropDataSet>(Content.GetPropertyValue <string>("mainImage") ): null;
 			
 			Blurb = (Content.HasValue("blurb")) ? Content.GetPropertyValue<HtmlString>("blurb") : (HtmlString)umbracoHelper.Truncate(BlogContent, 800);
@@ -33,11 +34,12 @@ namespace BlogMomentum.Models {
 			TwitterUsername = Content.GetPropertyValue<string>("twitterUsername", true);
 			ShareDescription = Content.GetPropertyValue<string>("shareDescription", true);
 			FullUrl = Content.UrlWithDomain();
-			var authorId = Content.GetProperty("author");
-			Author = (authorId != null && authorId.HasValue) ? new BlogAuthor(
-				Convert.ToInt32( authorId.Value)
-				) : null;
-			EnableShareIcons = (Content.HasValue("enableShareIcons", true)) ? Content.GetPropertyValue<bool>("enableShareIcons", true) : false;
+			//var authorId = Content.GetProperty("author");
+			//Author = (authorId != null && authorId.HasValue) ? new BlogAuthor(
+			//	Convert.ToInt32( authorId.Value)
+			//	) : null;
+            Author = (Content.HasValue("author"))? new BlogAuthor(Content.GetPropertyValue<IEnumerable<IPublishedContent>>("author").FirstOrDefault().Id) : null;
+            EnableShareIcons = (Content.HasValue("enableShareIcons", true)) ? Content.GetPropertyValue<bool>("enableShareIcons", true) : false;
 		}
 
 		public IPublishedContent BlogRoot { get; set; }
